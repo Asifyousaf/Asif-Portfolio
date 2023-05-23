@@ -5,14 +5,16 @@
 body{
   font-family: 'Roboto Condensed';
   color: white;
-  background-color: #10101a;
-  
-
+  background-color: #09021f;
 }
 
+#first-section {
+  background-image: url("90595.jpg");
+  background-size: cover;
+}
 #Splash {
   color: white;
-  background-color: #10101a;
+  background-color: rgb(14, 14, 29);
   position: fixed;
   top: 0;
   left: 0;
@@ -21,7 +23,7 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
-  z-index: 9999; /* Add a higher z-index to ensure the splash screen is on top */
+  z-index: 9999; 
 }
 h2{
   position: absolute;
@@ -39,16 +41,47 @@ h2{
   position: absolute;
   font-family:'Roboto Condensed';
   font-size: 43px;
-
   top: 35%;
   left: 17%;
+}
+#Textmain3{
+  word-spacing: 5px;
+  font-family:'Roboto Mono';
+  font-size: 21px;
+  max-width: 1220px;  
+  top: 38%;
+  left: 17%;
+}
+#Textmain4{
+  
+  font-family:'Handlee';
+  font-size: 21px;  
+  margin-top: 410px;
+  padding-left: 320px;
+}
+#Textmain5{
+  font-family:'Handlee';
+  font-size: 21px;  
+  margin-top: 100px;
+  padding-left: 320px;
 }
 .namecolor{
   
   font-family: 'Roboto Mono';
   color: rgb(98, 0, 255);
 }
+.namecolor1{
+  text-shadow: #000000 1px 0px 0px;
+  text-decoration: underline rgb(80, 76, 76);
+  color: rgb(255, 255, 255);
+}
+#project1txt{
+  font-family:'Roboto Mono';
+  font-size: 21px;  
+  margin-top: 100px;
+  padding-left: 290px;
 
+}
 /*splash screen */ 
 
 h1{
@@ -101,10 +134,34 @@ h1::before{
   position: absolute;
   top: 30%;
   left: 15%;
-  height: 300%;
+  height: 460%;
   width: 2px;
   background-color: rgb(98, 0, 255);
 }  
+.Line2 {
+  position: absolute;
+  top: 30%;
+  left: 15%;
+  height: 344%;
+  width: 2px;
+  background-color: rgb(98, 0, 255);
+} 
+.Line3 {
+  position: absolute;
+  top: 30%;
+  left: 15%;
+  height: 385%;
+  width: 2px;
+  background-color: rgb(98, 0, 255);
+} 
+.Line4 {
+  position: absolute;
+  top: 30%;
+  left: 15%;
+  height: 142%;
+  width: 2px;
+  background-color: rgb(98, 0, 255);
+} 
 /* Add the circle */
 .circle{
   position: absolute;
@@ -115,13 +172,41 @@ h1::before{
   border-radius: 50%;
   background-color: rgb(98, 0, 255);
 }
+.circle2{
+  position: absolute;
+  top: 374vh;
+  left: 14.45%;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: rgb(98, 0, 255);
+}
+.circle3{
+  position: absolute;
+  top: 414vh;
+  left: 14.45%;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: rgb(98, 0, 255);
+}
+.circle4{
+  position: absolute;
+  top: 171vh;
+  left: 14.45%;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: rgb(98, 0, 255);
+}
+
 /* text*/
 #hometxt{
   font-size: 70px;
   opacity: 40%;
 }
 .starttxt {
-  font-family:'Roboto Mono';
+    font-family:'Roboto Mono';
   padding-left: 17%;
   padding-top: 42%;
 }
@@ -189,10 +274,9 @@ h1::before{
   margin-bottom: -10px;
 }
 #Codetxt1 {
-  
   display: flex;
   font-size: 20px;
-  padding-left: 270px;
+  padding-left: 285px;
   font-family: 'Handlee';
   opacity: 50%;
   margin-bottom: -10px;
@@ -244,10 +328,19 @@ h1::before{
 #Codetxt7 {
   display: flex;
   font-size: 20px;
-  padding-left: 270px;
+  padding-left: 285px;
   font-family: 'Handlee';
   opacity: 50%;
   margin-top: -20px;
+}
+#Codetxt6 {
+  display: flex;
+  font-size: 20px;
+  padding-left: 310px;
+  font-family: 'Handlee';
+  opacity: 60%;
+  margin-top: 20px;
+  margin-bottom: 30px;
 }
 /*Progress card*/
 
@@ -256,9 +349,8 @@ h1::before{
   height: 10px;
   border-radius: 30px;
   margin-top: 10px;
-  overflow: hidden; /* Ensures the progress bar is not wider than the container */
+  overflow: hidden; 
 }
-
 .progress {
   background-color: #6c63ff;
   height: 100%;
@@ -281,9 +373,11 @@ h1::before{
 .card-container {
   display: flex;
   padding-left: 380px;
+  flex-wrap:wrap;
 }
 
 .card {
+  position: relative;
   box-shadow: 0px 0 20px -2px white;
   width: 400px;
   border: rgb(73, 2, 121) solid;
@@ -291,15 +385,28 @@ h1::before{
   padding: 10px;
   margin-right: 100px; 
   margin-left: 50px;
+  margin-bottom: 40px;
+}
+.card1 img {
+  box-shadow: 0px 0 20px -2px white;
+  border: rgb(73, 2, 121) solid;
 }
 
+
 .card img {
+  filter:blur(10px);
   width: 100%;
-  height: auto;
   border-radius: 4px;
   margin-bottom: 10px;
 }
-
+.txtimg{
+  margin-top: 45px;
+  margin-bottom: 20px;
+}
+.card:hover{
+  
+  filter: blur(0px);
+}
 .card h3 {
   font-family: 'Roboto Mono';
   margin: 0;
@@ -311,11 +418,123 @@ h1::before{
 .card a {
   font-family: 'Roboto Condensed';
   text-align: left;
-  width: 70px;
+  width: 90px;
   display: block;
   margin-top: 20px;
   color: #ffffff;
   padding: 8px;
   border-radius: 4px;
   text-decoration: underline;
+  
+}
+/* Centered text */
+.centered {
+  text-shadow: 1px 4px #10101a;
+  position: absolute;
+  top: 39%;
+  left: 30%;
+  font-family: "Roboto Condensed";
+  font-size: 20px;
+}
+
+.container1 {
+  text-align: center;
+}
+
+.container1:hover .centered {
+  display: none;
+}
+
+.card {
+  position: relative;
+}
+
+.card img {
+  filter: blur(8px);
+  transition: filter 0.6s ease;
+  position:relative;
+}
+
+.card:hover img {
+  filter: blur(0px); 
+}
+
+
+#Codetxt8{
+  display: flex;
+  font-size: 20px;
+  padding-left: 380px;
+  font-family: 'Handlee';
+  opacity: 50%;
+  margin-top: 70 -120px;
+}
+.Project1img{
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+.Project1btn {
+  width: 250px;
+  background-color: rgb(0, 0, 0);
+  box-shadow: 0px 0 10px -2px white;
+  border: rgb(73, 2, 121) solid;
+  padding: 10px 20px;
+  border-radius: 9px;
+  transition:  2s ease;
+}
+
+.Project1btn a {
+  color: #ffffff;
+  text-decoration: none;
+ 
+}
+.Project1btn:hover{
+  background-color: #ff47f6;
+  transition: 2s ease;
+}
+
+.Project1btn1{
+  display: flex;
+  justify-content: center;
+  padding-top: 210px;
+}
+  /* Styling the footer */
+  .footer {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 20px;
+  }
+  
+  .footer-line {
+    display: block;
+    width: 200px;
+    height: 3px;
+    background-color:rgb(73, 2, 121);
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 8px;
+    margin-left: auto;
+  }
+  
+  .footer-text {
+    font-size: 23px;
+  }
+  #project1txt{
+    font-size: 35px;
+    font-family: 'Handlee';
+    padding-left: 670px;
+
+  }
+.Aboutme{
+  font-family: "Handlee";
+  font-size: 18px;
+  padding-left: 300px;
+}
+
+.Aboutme{
+  background-image: linear-gradient(#09021f, rgb(17, 17, 31))
+}
+
+.Footer{
+  background-image: linear-gradient( rgb(21, 21, 39),);
 }
