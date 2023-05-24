@@ -28,7 +28,10 @@ body{
 h2{
   position: absolute;
 }
+.Headimg{
+  width: 60px;
 
+}
 #Textmain{
   position:absolute;
   font-family:'Roboto Condensed';
@@ -84,8 +87,7 @@ h2{
 }
 /*splash screen */ 
 
-h1{
-    
+h1{ 
     position:relative;
     font-size: 14hw;
     color: #10101a;
@@ -99,9 +101,9 @@ h1::before{
     left: 0;
     width: 0;
     height:100%;
-    color: rgb(255, 0, 0);
-    -webkit-text-stroke:0.1vw #b11e1e;
-    border-right: 2px solid rgb(98, 0, 255);
+    color: rgb(98, 0, 255);
+    -webkit-text-stroke:0.1vw rgb(98, 0, 255);
+    border-right: 2px solid rgb(252, 252, 252);
     overflow: hidden;
     animation: animate 2.5s forwards;
 }
@@ -116,10 +118,10 @@ h1::before{
 }
 /* NAME */
 .myname {
-  padding-top: 15px;
+ 
   padding-left:10px;
-  font-size: 36PX;
-  font-family: 'Roboto Condensed';
+  font-size: 33PX;
+  font-family: 'Roboto Mono';
 }
 
 .symbol {
@@ -134,7 +136,7 @@ h1::before{
   position: absolute;
   top: 30%;
   left: 15%;
-  height: 460%;
+  height: 425%;
   width: 2px;
   background-color: rgb(98, 0, 255);
 }  
@@ -342,6 +344,23 @@ h1::before{
   margin-top: 20px;
   margin-bottom: 30px;
 }
+#Codetxt8{
+  display: flex;
+  font-size: 20px;
+  padding-left: 380px;
+  font-family: 'Handlee';
+  opacity: 50%;
+  margin-top: 70 -120px;
+}
+#Codetxt9 {
+  display: flex;
+  font-size: 20px;
+  font-family: 'Handlee';
+  opacity: 50%;
+  margin-top:60px;
+  margin-bottom: 20px;
+ 
+}
 /*Progress card*/
 
 .progress-bar {
@@ -460,14 +479,6 @@ h1::before{
 }
 
 
-#Codetxt8{
-  display: flex;
-  font-size: 20px;
-  padding-left: 380px;
-  font-family: 'Handlee';
-  opacity: 50%;
-  margin-top: 70 -120px;
-}
 .Project1img{
   margin-top: 50px;
   display: flex;
@@ -503,6 +514,7 @@ h1::before{
     text-align: center;
     margin-top: 100px;
     margin-bottom: 20px;
+    position: relative;
   }
   
   .footer-line {
@@ -531,10 +543,133 @@ h1::before{
   padding-left: 300px;
 }
 
-.Aboutme{
-  background-image: linear-gradient(#09021f, rgb(17, 17, 31))
+#footertxt{
+  font-size: 20px;
+  font-family: 'Handlee';
+  text-align: center;
 }
 
-.Footer{
-  background-image: linear-gradient( rgb(21, 21, 39),);
+#footerbtn {
+  font-family:'Roboto Condensed';
+  background: linear-gradient( purple, blue);
+  border: none;
+  width: 155px;
+  height: 45px;
+  transition: 0.9s;
+  cursor:grabbing;
+  border-radius: 41px;
+}
+
+#footerbtn a {
+  text-decoration: none;
+  font-size: 20px;
+  color: rgb(216, 203, 203);
+}
+
+#footerbtn:hover {
+  background: linear-gradient(to right, purple, rgb(14, 14, 141));
+}
+.social-media {
+  margin-left: 10px;
+}
+
+.social-media a {
+  margin-right: 16px;
+}
+
+.decor-images .decorimg {
+  filter: contrast(3);
+  width: 350px;
+  position: absolute;
+  top: -120px;
+  left: 0;
+  margin-left: -60px;
+}
+
+.lines-part {
+  position: relative;
+  width: 100%;
+  height: 200px; /* Adjust the height as needed */
+}
+
+.lines-part img {
+ width: 1836px;
+ height: 120px;
+
+}
+
+.footercolor{
+  padding: 50px;
+  background:linear-gradient(to bottom, #09021f,#5500ff3d);
+}
+
+.horzoline1,
+.horzoline2,
+.horzoline3 {
+  position: absolute;
+  margin-top: -50px;
+  height: 3px;
+  width:88%; /* Adjust the width as needed */
+  background: linear-gradient(to right, rgb(73, 2, 121),#19191a3d);
+  z-index: 1;
+}
+
+.horzoline1 {
+  top: 30%;
+  left: 15%;
+  z-index: 0;
+}
+
+.horzoline2 {
+  top: 33%;
+  left: 15%;
+  z-index: 0;
+}
+
+.horzoline3 {
+  top: 36%;
+  left: 15%;
+  z-index: 0;
+}
+
+.footerheading{
+  margin-top: -100px;
+}
+
+.logo {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background: url(Code.png) no-repeat center;
+}
+.name {
+  margin-top: -79px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+    font-size: 28px;
+}
+.separator {
+  display: inline-block;
+  height: 100px;
+  width: 4px;
+  background-color: #ff00f2;
+}
+.github-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 10px;
+  border: 2px white solid;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgb(255, 255, 255);
+  z-index: 9999;
+}
+.github-button a {
+  color: #ddd;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: 'Roboto Mono';
 }
