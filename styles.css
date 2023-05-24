@@ -118,7 +118,6 @@ h1::before{
 }
 /* NAME */
 .myname {
- 
   padding-left:10px;
   font-size: 33PX;
   font-family: 'Roboto Mono';
@@ -663,7 +662,6 @@ h1::before{
   border: 2px white solid;
   border-radius: 5px;
   box-shadow: 0 2px 5px rgb(255, 255, 255);
-  z-index: 9999;
 }
 .github-button a {
   color: #ddd;
