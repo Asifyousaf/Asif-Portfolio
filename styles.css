@@ -13,7 +13,7 @@ body{
 
 /* Setting background image for the body */
 #first-section {
-  background-image: url("90595.jpg");
+  background-image: url("/Images/Backgroundimg.jpg");
   background-size: cover;
 }
 
@@ -84,6 +84,28 @@ h1::before{
   top: 35%;
   left: 17%;
 }
+#Textmain3{
+  position: absolute;
+  word-spacing: 5px;
+  font-family:'Roboto Mono';
+  font-size: 21px;
+  max-width: 1220px;  
+  top: 38%;
+  left: 17%;
+}
+#Textmain4{
+  
+  font-family:'Handlee';
+  font-size: 21px;  
+  margin-top: 410px;
+  padding-left: 320px;
+}
+#Textmain5{
+  font-family:'Handlee';
+  font-size: 21px;  
+  margin-top: 100px;
+  padding-left: 320px;
+}
 
 /* setting the color of my name and font */
 .namecolor{
@@ -98,7 +120,6 @@ h1::before{
   color: rgb(255, 255, 255);
 }
 
- 
 
 /* NAME */
 .myname {
@@ -107,6 +128,7 @@ h1::before{
   font-family: 'Roboto Mono';
 }
 
+/* styling the Color for the signs*/
 .symbol {
   font-size: 30px;
   color: rgb(98, 0, 255);
@@ -115,6 +137,7 @@ h1::before{
   color: rgb(98, 0, 255);
 }
 
+/* styling the line which divides the page   */
 .Line {
   position: absolute;
   top: 30%;
@@ -123,6 +146,7 @@ h1::before{
   width: 2px;
   background-color: rgb(98, 0, 255);
 }  
+/* Styling for the line project pg 2*/
 .Line2 {
   position: absolute;
   top: 30%;
@@ -131,6 +155,7 @@ h1::before{
   width: 2px;
   background-color: rgb(98, 0, 255);
 } 
+/* Styling for the line project pg 3*/
 .Line3 {
   position: absolute;
   top: 30%;
@@ -138,7 +163,8 @@ h1::before{
   height: 385%;
   width: 2px;
   background-color: rgb(98, 0, 255);
-} 
+
+} /* Styling for the line project pg 4 % 5*/
 .Line4 {
   position: absolute;
   top: 30%;
@@ -147,7 +173,8 @@ h1::before{
   width: 2px;
   background-color: rgb(98, 0, 255);
 } 
-/* Add the circle */
+
+/* styling the small circle for all the pages */
 .circle{
   position: absolute;
   top: 28%;
@@ -185,70 +212,8 @@ h1::before{
   background-color: rgb(98, 0, 255);
 }
 
-/* text*/
-#hometxt{
-  font-size: 70px;
-  opacity: 40%;
-}
-.starttxt {
-    font-family:'Roboto Mono';
-  padding-left: 17%;
-  padding-top: 42%;
-}
-.starttxt a {
-  color: grey;
-}
-#title2 {
-  padding-top: 5.5%;
-  padding-left: 10%;
-  font-family: 'Roboto Condensed';
-  opacity: 50%;
-  font-size: 60px;
-  position: relative; 
-}
-#title3 {
-  padding-top: 5.5%;
-  padding-left: 10%;
-  font-family: 'Roboto Condensed';
-  opacity: 50%;
-  font-size: 60px;
-  position: relative; 
-}
-#title4 {
-  padding-top: 5.5%;
-  margin-left: -50px;
-  font-family: 'Roboto Condensed';
-  opacity: 20%;
-  position: relative; 
-}
+/*--------- Code writing on the side ------------ */
 
-/* expertise Box */
-.cover {
-  padding-left: 10%; 
-  padding-right: 1.5%; 
-  height: 300px;
-  padding-top: 7%;
-  display: flex;
-  flex-wrap: wrap; 
-  justify-content: center; 
-  margin-bottom: -100px;
-}
-.box {
-  font-family: 'Roboto Mono';
-  width: 350px;
-  text-align: center;
-  border: rgb(73, 2, 121) solid;
-  border-radius: 4%;
-  padding: 10px;
-  margin: 9px;
-  box-shadow: 0 0 20px -2px white;
-  word-spacing: 5px;
-}
-.cover h3{
-  justify-items: center;
-  font-size: 25px;
-  text-decoration: underline purple ;
-}
 #Codetxt {
   margin-top: 15px;
   display: flex;
@@ -300,16 +265,8 @@ h1::before{
   font-family: 'Handlee';
   opacity: 50%;
   margin-top: 220px;
- 
 }
-#Codetxt6 {
-  margin-top: -20px;
-  display: flex;
-  font-size: 20px;
-  padding-left: 300px;
-  font-family: 'Handlee';
-  opacity: 50%;
-}
+
 #Codetxt7 {
   display: flex;
   font-size: 20px;
@@ -324,8 +281,6 @@ h1::before{
   padding-left: 310px;
   font-family: 'Handlee';
   opacity: 60%;
-  margin-top: 20px;
-  margin-bottom: 30px;
 }
 #Codetxt8{
   display: flex;
@@ -344,8 +299,68 @@ h1::before{
   margin-bottom: 20px;
  
 }
-/*Progress card*/
 
+/* styling the "let's start button" */
+.starttxt {
+    font-family:'Roboto Mono';
+  padding-left: 17%;
+  padding-top: 42%;
+}
+.starttxt a {
+  color: grey;
+}
+
+/* styling the sub heading for each section */
+#title2 {
+  padding-top: 5.5%;
+  padding-left: 10%;
+  font-family: 'Roboto Condensed';
+  opacity: 50%;
+  font-size: 60px;
+  position: relative; 
+}
+#title3 {
+  padding-top: 5.5%;
+  padding-left: 10%;
+  font-family: 'Roboto Condensed';
+  opacity: 50%;
+  font-size: 60px;
+  position: relative; 
+}
+
+/* -------------styling for The Expertise------------ */
+
+/* Styling the cards and aligning them */
+.cover {
+  padding-left: 10%; 
+  padding-right: 1.5%; 
+  height: 300px;
+  padding-top: 7%;
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center; 
+  margin-bottom: -100px;
+}
+/* Stying the cards color,font and aligning them*/
+.box {
+  font-family: 'Roboto Mono';
+  width: 350px;
+  text-align: center;
+  border: rgb(73, 2, 121) solid;
+  border-radius: 4%;
+  padding: 10px;
+  margin: 9px;
+  box-shadow: 0 0 20px -2px white;
+  word-spacing: 5px;
+}
+/*  Adding underline for the sub heading */
+.cover h3{
+  justify-items: center;
+  font-size: 25px;
+  text-decoration: underline purple ;
+}
+
+/* styling the my skills bar*/
 .progress-bar {
   background-color: #ddd;
   height: 10px;
@@ -353,12 +368,13 @@ h1::before{
   margin-top: 10px;
   overflow: hidden; 
 }
+/* styling the color for the progress  */
 .progress {
   background-color: #6c63ff;
   height: 100%;
   border-radius: 5px;
 }
-
+/*styling the border of 'my skills' */
 .Progresscolor {
   margin-left: -50px;
   width: 50%;
@@ -371,13 +387,16 @@ h1::before{
   box-shadow: 0 0 20px -2px white;
 }
 
-/* Projects */
+/* -------------styling for my Projects------------ */
+
+/* Aligning the cards */
 .card-container {
   display: flex;
   padding-left: 380px;
   flex-wrap:wrap;
 }
 
+/* styling for each project card */
 .card {
   position: relative;
   box-shadow: 0px 0 20px -2px white;
@@ -389,26 +408,33 @@ h1::before{
   margin-left: 50px;
   margin-bottom: 40px;
 }
+
+
 .card1 img {
   box-shadow: 0px 0 20px -2px white;
   border: rgb(73, 2, 121) solid;
 }
 
-
+/* Adding filter to the image */
 .card img {
   filter:blur(10px);
   width: 100%;
   border-radius: 4px;
   margin-bottom: 10px;
 }
+
+/* Aliging the sub-heading of card  */
 .txtimg{
   margin-top: 45px;
   margin-bottom: 20px;
 }
+
+/* Removing the filter when hover on it  */
 .card:hover{
-  
   filter: blur(0px);
 }
+
+/* Styling and positioning the sub-heading */
 .card h3 {
   font-family: 'Roboto Mono';
   margin: 0;
@@ -417,6 +443,7 @@ h1::before{
   margin-top: -40px;
 }
 
+/* Styling the button for viewing the project  */
 .card a {
   font-family: 'Roboto Condensed';
   text-align: left;
@@ -426,10 +453,10 @@ h1::before{
   color: #ffffff;
   padding: 8px;
   border-radius: 4px;
-  text-decoration: underline;
-  
+  text-decoration: underline;  
 }
-/* Centered text */
+
+/* styling the text on img and changin font and color */
 .centered {
   text-shadow: 1px 4px #10101a;
   position: absolute;
@@ -439,34 +466,42 @@ h1::before{
   font-size: 20px;
 }
 
+/* Aliging the text of card  */
 .container1 {
   text-align: center;
 }
 
+/* Removing the text when hover */
 .container1:hover .centered {
   display: none;
 }
 
+/* Positioning the project card */
 .card {
   position: relative;
 }
 
+/* Adding blur to the card img with transition*/
 .card img {
   filter: blur(8px);
   transition: filter 0.6s ease;
   position:relative;
 }
 
+/* Removing the filter when hover  */
 .card:hover img {
   filter: blur(0px); 
 }
 
-
+/* -------------styling for Project pages------------ */
+/* Aligning the Project images  */ 
 .Project1img{
   margin-top: 50px;
   display: flex;
   justify-content: center;
 }
+
+/* Styling the project view button */
 .Project1btn {
   width: 250px;
   background-color: rgb(0, 0, 0);
@@ -477,61 +512,78 @@ h1::before{
   transition:  2s ease;
 }
 
+/* Styling the color of button */
 .Project1btn a {
   color: #ffffff;
   text-decoration: none;
- 
 }
+
+/* Changing the color when hover */
 .Project1btn:hover{
   background-color: #ff47f6;
   transition: 2s ease;
 }
 
+/* Styling the position of button */
 .Project1btn1{
   display: flex;
   justify-content: center;
   padding-top: 210px;
 }
-  /* Styling the footer */
-  .footer {
-    text-align: center;
-    margin-top: 100px;
-    margin-bottom: 20px;
-    position: relative;
-  }
-  
-  .footer-line {
-    display: block;
-    width: 200px;
-    height: 3px;
-    background-color:rgb(73, 2, 121);
-    margin-top: 0px;
-    margin-right: auto;
-    margin-bottom: 8px;
-    margin-left: auto;
-  }
-  
-  .footer-text {
-    font-size: 23px;
-  }
-  #project1txt{
-    font-size: 35px;
-    font-family: 'Handlee';
-    padding-left: 670px;
 
-  }
+/* -------------styling for Aboutme------------ */
 .Aboutme{
   font-family: "Handlee";
   font-size: 18px;
   padding-left: 300px;
 }
+/* -------------styling for footer------------ */
+/* Aligning the footer */
+.footer {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 20px;
+  position: relative;
+}
 
+/* styling the footer background */
+#footercolor{
+  padding: 50px;
+  background:linear-gradient(to bottom, #09021f,#5500ff3d);
+}
+
+/*  
+.footer-line {
+  display: block;
+  width: 200px;
+  height: 3px;
+  background-color:rgb(73, 2, 121);
+  margin-top: 0px;
+  margin-right: auto;
+  margin-bottom: 8px;
+  margin-left: auto;
+}
+
+.footer-text {
+  font-size: 23px;
+}*/
+
+/* Styling the text above button */
+#project1txt{
+  font-size: 35px;
+  font-family: 'Handlee';
+  padding-left: 670px;
+  margin-bottom: -110px;
+} 
+
+/* Styling the text for footer*/
 #footertxt{
   font-size: 20px;
   font-family: 'Handlee';
   text-align: center;
 }
 
+/* Styling for the 'Get in touch' Button */
 #footerbtn {
   font-family:'Roboto Condensed';
   background: linear-gradient( purple, blue);
@@ -543,23 +595,29 @@ h1::before{
   border-radius: 41px;
 }
 
+/* Styling for text in 'Get in touch' Button */
 #footerbtn a {
   text-decoration: none;
   font-size: 20px;
   color: rgb(216, 203, 203);
 }
 
+/* Changing the text when you hover */
 #footerbtn:hover {
   background: linear-gradient(to right, purple, rgb(14, 14, 141));
 }
+
+/* Aligning the social media icons */
 .social-media {
   margin-left: 10px;
 }
 
+/* adding space between the icons */
 .social-media a {
   margin-right: 16px;
 }
 
+/* Styling the decoration images for footer  */
 .decor-images .decorimg {
   filter: contrast(3);
   width: 350px;
@@ -568,76 +626,77 @@ h1::before{
   left: 0;
   margin-left: -60px;
 }
-
+/* styling the lines to seperate the footer */
 .lines-part {
   position: relative;
   width: 100%;
-  height: 200px; /* Adjust the height as needed */
+  height: 200px; 
 }
 
-.lines-part img {
- width: 1836px;
- height: 120px;
-
-}
-
-.footercolor{
-  padding: 50px;
-  background:linear-gradient(to bottom, #09021f,#5500ff3d);
-}
-
+/* styling the lines of footer */
 .horzoline1,
 .horzoline2,
 .horzoline3 {
   position: absolute;
   margin-top: -50px;
   height: 3px;
-  width:88%; /* Adjust the width as needed */
+  width: 85%; 
   background: linear-gradient(to right, rgb(73, 2, 121),#19191a3d);
   z-index: 1;
 }
 
+/* Aligning the lines no.1 */
 .horzoline1 {
   top: 30%;
   left: 15%;
   z-index: 0;
 }
 
+/* Aligning the lines no.2 */
 .horzoline2 {
   top: 33%;
   left: 15%;
   z-index: 0;
 }
 
+/* Aligning the lines no.3 */
 .horzoline3 {
   top: 36%;
   left: 15%;
   z-index: 0;
 }
 
+/* Removing the extra space  */
 .footerheading{
   margin-top: -100px;
 }
 
+/* Styling the logo at the footer */
 .logo {
   display: inline-block;
   width: 100px;
   height: 100px;
-  background: url(Code.png) no-repeat center;
+  background: url(/Images/main-icon.png) no-repeat center;
 }
+
+/* Styling the name at the footer */
 .name {
   margin-top: -79px;
-    display: inline-block;
-    vertical-align: middle;
-    margin-left: 10px;
-    font-size: 28px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 10px;
+  font-size: 28px;
 }
+
+/* Adding seperator between the logo and text*/
 .separator {
   display: inline-block;
   height: 100px;
   width: 4px;
   background-color: #ff00f2;
 }
+
+/* Styling github button on top right */
 .github-button {
   position: absolute;
   top: 10px;
@@ -647,6 +706,8 @@ h1::before{
   border-radius: 5px;
   box-shadow: 0 2px 5px rgb(255, 255, 255);
 }
+
+/* Styling github button text color */
 .github-button a {
   color: #ddd;
   display: flex;
