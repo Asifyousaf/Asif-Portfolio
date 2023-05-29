@@ -93,19 +93,23 @@ h1::before{
   left: 17%;
 }
 #Textmain4{
-  
   font-family:'Handlee';
   font-size: 21px;  
   margin-top: 410px;
   padding-left: 320px;
 }
+
 #Textmain5{
   font-family:'Handlee';
   font-size: 21px;  
   margin-top: 100px;
   padding-left: 320px;
 }
-
+#Textmain6{
+font-family:'Handlee';
+  font-size: 21px;  
+  margin-top: 310px;
+  padding-left: 320px;}
 /* setting the color of my name and font */
 .namecolor{
   font-family: 'Roboto Mono';
@@ -123,7 +127,7 @@ h1::before{
 /* NAME */
 .myname {
   padding-left:10px;
-  font-size: 33PX;
+  font-size: 33px;
   font-family: 'Roboto Mono';
 }
 
@@ -145,16 +149,16 @@ h1::before{
   width: 2px;
   background-color: rgb(98, 0, 255);
 }  
-/* Styling for the line project pg 2*/
+/* Styling for the line project pg 1*/
 .Line2 {
   position: absolute;
   top: 30%;
   left: 15%;
-  height: 344%;
+  height: 327%;
   width: 2px;
   background-color: rgb(98, 0, 255);
 } 
-/* Styling for the line project pg 3*/
+/* Styling for the line project pg 2*/
 .Line3 {
   position: absolute;
   top: 30%;
@@ -163,21 +167,40 @@ h1::before{
   width: 2px;
   background-color: rgb(98, 0, 255);
 
-} /* Styling for the line project pg 4 % 5*/
+} /* Styling for the line project pg 4 */
 .Line4 {
   position: absolute;
   top: 30%;
   left: 15%;
-  height: 142%;
+  height: 130%;
   width: 2px;
   background-color: rgb(98, 0, 255);
 } 
+/* Styling for the line project pg 4 */
+.Line5{
+  position: absolute;
+  top: 30%;
+  left: 15%;
+  height: 130%;
+  width: 2px;
+  background-color: rgb(98, 0, 255);
+
+}
 
 /* styling the small circle for all the pages */
 .circle{
   position: absolute;
   top: 28%;
-  left: 14.45%;
+  left: 14.49%;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: rgb(98, 0, 255);
+}
+.circle1a{
+  position: absolute;
+  top: 453vh;
+  left: 14.52%;
   width: 20px;
   height: 20px;
   border-radius: 50%;
@@ -185,8 +208,8 @@ h1::before{
 }
 .circle2{
   position: absolute;
-  top: 374vh;
-  left: 14.45%;
+  top: 357vh;
+  left: 14.5%;
   width: 20px;
   height: 20px;
   border-radius: 50%;
@@ -201,10 +224,19 @@ h1::before{
   border-radius: 50%;
   background-color: rgb(98, 0, 255);
 }
+.circle5{
+  position: absolute;
+  top: 159vh;
+  left: 14.55%;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: rgb(98, 0, 255);
+}
 .circle4{
   position: absolute;
-  top: 171vh;
-  left: 14.45%;
+  top: 159vh;
+  left: 14.55%;
   width: 20px;
   height: 20px;
   border-radius: 50%;
