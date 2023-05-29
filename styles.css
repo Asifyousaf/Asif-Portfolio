@@ -13,7 +13,7 @@ body{
 
 /* Setting background image for the body */
 #first-section {
-  background-image: url("/Images/Backgroundimg.jpg");
+  background-image: url("Images/Backgroundimg.jpg");
   background-size: cover;
 }
 
