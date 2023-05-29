@@ -85,10 +85,191 @@
 
  
 
-/* (1280x1024) SXGA Display */
+/* (1280x1024)  */
 @media  screen and (max-width: 1280px) {
-  /* insert styles here */
+  #Textmain{
+    font-size:35px;
+  }
+  
+  #Textmain2{
+    font-size: 32px;
+  }
+  .myname{
+    font-size: 23px;
+  }
+  .circle{
+    left: 14.35%;
+    width: 20px;
+    height: 20px;
+  }
+  .circle1{
+    position: absolute;
+    top: 357vh;
+    left: 14.52%;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgb(98, 0, 255);
+  }
+  
+  #Codetxt,#Codetxt6{ padding-left: 235px;
+    font-size: 16.5px;
+  }
+  #Codetxt1, #Codetxt2,#Codetxt4,#Codetxt3,#Codetxt7  {
+    font-size: 16.5px;
+    padding-left: 215px;
+  }
+  .Codetxt5{
+    margin-top: -210px;
+  }
+  #Codetxt6 {
+    margin-top: -100px;
+    font-size: 20px;
+    padding-left: 220px;
+  }
+  #soundboard1 img{
+    width: 800px;
+  }
+  .Line4 {
+  
+    height: 149px;
+    top: 30%;
+    
+  } 
+  .circle4{
+    top: 149vh;
+  }
+#side_nav li a {
+  height: 40px;
+  color: #d8d8d8;
+  line-height: 36px;
+  font-size: 10px;
+  font-weight: bolder ;
 }
+  .nav__wrapper{
+  margin-right: 10px;
+  }
+  #side_nav{
+    width: ;
+  }
+  .line{
+    margin-right: 10px;
+  }
+  .Aboutme{
+    font-family: "Handlee";
+    font-size: 15px;
+    padding-left: 250px;
+  }
+
+  .cover {
+    padding-left: 10%; 
+    padding-right: 1.5%; 
+    height: 120px;
+    padding-top: 7%;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    margin-bottom: 190px;
+  }
+  .cover h3{
+    justify-items: center;
+    font-size: 15px;
+    text-decoration: underline purple ;
+  }
+  .box {
+    font-size: 15px;
+    font-family: 'Roboto Mono';
+    width: 270px;
+    text-align: center;
+    border: rgb(73, 2, 121) solid;
+    border-radius: 4%;
+    padding: 10px;
+    margin: 9px;
+    box-shadow: 0 0 20px -2px white;
+    word-spacing: 5px;
+  }
+  .Progresscolor {
+    margin-left: -50px;
+    width: 500px;
+    padding: 20px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    font-family: 'Roboto Mono';
+    text-align: left;
+    border: rgb(73, 2, 121) solid;
+    box-shadow: 0 0 20px -2px white;
+  }
+  .card {
+    position: relative;
+    box-shadow: 0px 0 20px -2px white;
+    width: 330px;
+    border: rgb(73, 2, 121) solid;
+    border-radius: 10px;
+    padding: 10px;
+    margin-right: 100px; 
+    margin-left: 0px;
+    margin-bottom: 40px;
+  }
+  .card h3 {
+    font-size: 12px;
+  }
+  
+  .Line{
+    height:465%;
+  }
+  #Codetxt5 {
+    display: flex;
+    font-size: 20px;
+    padding-left: 220px;
+    font-family: 'Handlee';
+    opacity: 50%;
+    margin-top: 150px;
+  }
+   #Textmain3{
+    font-size: 16px;
+    padding-right: 170px;
+  }
+  #Textmain5{
+    font-size: 19px;
+    padding-right: 270px;
+  }
+  #Textmain4{
+    font-family:'Handlee';
+    font-size: 21px;  
+    margin-top: 230px;
+    padding-left: 320px;
+  }
+
+
+  #project1txt{
+    font-size: 35px;
+    font-family: 'Handlee';
+    padding-left: 410px;
+    margin-bottom: -110px;
+  } 
+  .Line2 {
+  
+    height: 425%;
+    
+  } 
+  .circle2{
+    top: 454vh;
+  }
+  .Line3{
+   
+    height: 485%;}
+  .circle3{
+    top: 514vh; 
+    }
+  .Line4 {
+    height: 175%;
+    }
+  .circle4{
+    top: 204vh;
+    }
+
+}
+
 
 /* (1440x900) WXGA+ Display */
 @media  screen and (max-width: 1440px) {
@@ -117,12 +298,16 @@
     width: 20px;
     height: 20px;
   }
-  .circle1a{
-    top: 493vh;
-    left: 14.38%;
+  .circle1{
+    position: absolute;
+    top: 460vh;
+    left: 14.5%;
     width: 20px;
     height: 20px;
+    border-radius: 50%;
+    background-color: rgb(98, 0, 255);
   }
+  
   
   #Codetxt,#Codetxt6{ padding-left: 235px;
     font-size: 16.5px;
@@ -236,7 +421,7 @@
   }
   
   .Line{
-    height:465%;
+    height:430%;
   }
   #Codetxt5 {
     display: flex;
