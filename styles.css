@@ -675,7 +675,7 @@ h1::before{
   display: inline-block;
   width: 100px;
   height: 100px;
-  background: url(/Images/main-icon.png) no-repeat center;
+  background: url(Images/main-icon.png) no-repeat center;
 }
 
 /* Styling the name at the footer */
