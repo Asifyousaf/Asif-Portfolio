@@ -12,7 +12,7 @@ body{
 
 /* Setting background image for the body */
 #first-section {
-  background-image: url("/Images/Backgroundimg.jpg");
+  background-image: url("./Images/Backgroundimg.jpg");
   background-position: center;
 }
 
@@ -675,7 +675,7 @@ h1::before{
   display: inline-block;
   width: 100px;
   height: 100px;
-  background: url(/Images/main-icon.png) no-repeat center;
+  background: url(./Images/main-icon.png) no-repeat center;
 }
 
 /* Styling the name at the footer */
