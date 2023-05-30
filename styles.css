@@ -425,21 +425,26 @@ font-family:'Handlee';
 /* Aligning the cards */
 .card-container {
   display: flex;
-  padding-left: 380px;
-  flex-wrap:wrap;
+  flex-wrap: wrap;
+  justify-content: flex;
+  padding-left: 23%; /* Adjust the left padding as needed */
+}
+.box {
+  flex-basis: 20%;
+  margin-bottom: 20px;
 }
 
 /* styling for each project card */
 .card {
+  flex-basis: 30%;
   position: relative;
   box-shadow: 0px 0 20px -2px white;
-  width: 400px;
   border: rgb(73, 2, 121) solid;
   border-radius: 10px;
   padding: 10px;
-  margin-right: 100px; 
-  margin-left: 50px;
-  margin-bottom: 40px;
+  margin: 4%; /* Adjust the margins as needed */
+  width: 108%; /* Adjust the width as needed */
+  max-width: 450px; /* Set maximum width for the cards */
 }
 
 
@@ -569,7 +574,25 @@ font-family:'Handlee';
   font-family: "Handlee";
   font-size: 18px;
   padding-left: 300px;
+   max-width: 100%; /* Allow the "About Me" section to adjust its width */
+   margin-bottom: 20px; /* Add some spacing between the "About Me" section and the cards */
 }
+#Aboutme1 {
+  display: flex;
+  flex-wrap: wrap;
+}
+/*
+  Set the flex item to a fixed width of 100%, preventing it from growing or shrinking.
+*/
+.Aboutme {
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+.Aboutme pre {
+  white-space:pre-line;
+}
+
 /* -------------styling for footer------------ */
 /* Aligning the footer */
 .footer {
