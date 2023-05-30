@@ -110,6 +110,8 @@ font-family:'Handlee';
   font-size: 21px;  
   margin-top: 310px;
   padding-left: 320px;}
+
+
 /* setting the color of my name and font */
 .namecolor{
   font-family: 'Roboto Mono';
@@ -311,7 +313,7 @@ font-family:'Handlee';
   font-size: 20px;
   padding-left: 310px;
   font-family: 'Handlee';
-  opacity: 60%;
+  opacity: 50%;
 }
 #Codetxt8{
   display: flex;
