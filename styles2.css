@@ -1,3 +1,5 @@
+/* In this style sheet there are nav bar style and the media quieres */
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&family=Roboto+Mono:ital,wght@1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&family=Roboto+Mono:ital,wght@0,700;1,700&display=swap');
 
@@ -6,6 +8,7 @@
         padding: 0;
 }
 /* Navigation styles */
+/* Styles for the navigation bar */
 .nav__wrapper {
   position: fixed;
   top: 50%;
@@ -21,18 +24,22 @@
   flex-direction: column;
   align-items: flex-end;
 }
+/* Removing right margin from elements within the side navigation */
 #side_nav li a {
   margin-right: 0;
 }
+/* Styling for each list item the side navigation */
 #side_nav li {
   position: relative;
   padding-right: 10px; 
 }
 
+/* Removing bottom margin from the last list item */
 #side_nav li:last-child {
   margin-bottom: 0;
 }
 
+/* Styling for the vertical line before each list item */
 #side_nav li:before {
   content: '';
   position: absolute;
@@ -45,6 +52,7 @@
   transition: transform 0.4s ease-in-out;
 }
 
+/* Scaliing the vertical line on hover */
 #side_nav li:hover:before {
   transform: scaleY(1);
 }
@@ -61,9 +69,12 @@
   overflow: hidden;
 }
 
+/* Changing color on hover */
 #side_nav li a:hover{
   color: rgb(98, 0, 255);
 }
+
+/* Style for the span element within the anchor elements */
 
 #side_nav li span {
   display: inline-block;
