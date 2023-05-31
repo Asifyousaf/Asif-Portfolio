@@ -86,20 +86,149 @@
 }
 
 
-
-
-/* Existing CSS code before media queries */
 /* For screens larger than 1200px (desktops) */
-@media (min-width: 1200px) {
+@media (min-width: 1200px) and (max-width: 1365px){
   /* CSS rules for desktop screens */
-  body {
-    font-size: 16px;
+  #Codetxt,#Codetxt6{ padding-left: 235px;
+    font-size: 16.5px;
+    padding-right: 5px;
+  }
+  #Codetxt1, #Codetxt2,#Codetxt4,#Codetxt3,#Codetxt7  {
+    font-size: 16.5px;
+    padding-left: 200px;
+    padding-right: 5px;
+  }
+ 
+  #Codetxt5 {
+    font-size: 16.5px;
+    padding-left: 200px;
+    margin-top: 220px;
+  }
+  #Codetxt7{
+    font-size: 16.5px;
+    margin-top: 5px;
+  }
+  #Codetxt5a{
+    padding-left: 215px;
+    font-family: 'Handlee';
+    opacity: 50%;
+    margin-top: 190px;
+  }
+  #Codetxt8{
+    padding-left: 230px;
+  }
+  #soundboard1 img{
+    width: 750px;
+    height: 550px;
+  }
+  #project1txt{
+    font-size: 35px;
+    font-family: 'Handlee';
+    margin-bottom: -110px;
+  } 
+  /* For project 2 */
+  .Line3{
+    height: 419%;
+  }
+  .circle3{
+  
+    top: 449vh;
+  
+
+    height: 20px;
+  }
+    /* For project 1 */
+    .Line2{
+      height: 360%;
+    }
+    .circle2{
+    
+      top: 389vh;
+    
+  
+      height: 20px;
+    }
+    .temperaturecalc{
+      width: 60%;
+      height:40%;
+
+    }
+    #Textmain3{
+      max-width: 1020px;  
+    }
+  
+}
+@media (min-width: 1366px) and (max-width: 1439px){
+  /* CSS rules for desktop screens */
+  #Codetxt,#Codetxt6{ padding-left: 235px;
+    font-size: 16.5px;
+    padding-right: 5px;
+  }
+  #Codetxt1, #Codetxt2,#Codetxt4,#Codetxt3,#Codetxt7  {
+    font-size: 16.5px;
+    padding-left: 220px;
+    padding-right: 5px;
+  }
+ 
+  #Codetxt5 {
+    font-size: 16.5px;
+    padding-left: 210px;
+    margin-top: 220px;
+  }
+  #Codetxt5a{
+    padding-left: 215px;
+    font-family: 'Handlee';
+    opacity: 50%;
+    margin-top: 190px;
+  }
+  #Codetxt7{
+    font-size: 16.5px;
+    margin-top: 5px;
   }
 
-  .container {
-    max-width: 1200px;
-    margin: 0 auto;
+  #Codetxt8{
+    padding-left: 230px;
   }
+  #soundboard1 img{
+    width: 750px;
+    height: 550px;
+  }
+  #project1txt{
+    font-size: 35px;
+    font-family: 'Handlee';
+    margin-bottom: -110px;
+  } 
+  /* For project 2 */
+  .Line3{
+    height: 419%;
+  }
+  .circle3{
+  
+    top: 449vh;
+  
+
+    height: 20px;
+  }
+    /* For project 1 */
+    .Line2{
+      height: 360%;
+    }
+    .circle2{
+    
+      top: 389vh;
+    
+  
+      height: 20px;
+    }
+    .temperaturecalc{
+      width: 60%;
+      height:40%;
+
+    }
+    #Textmain3{
+      max-width: 1120px;  
+    }
+  
 }
 
 /* For screens between 992px and 1199px (laptops) */
@@ -109,10 +238,6 @@
     font-size: 14px;
   }
 
-  .container {
-    max-width: 960px;
-    margin: 0 auto;
-  }
 }
 
 /* For screens smaller than 991px (small laptops and tablets) */

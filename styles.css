@@ -299,6 +299,14 @@ font-family:'Handlee';
   opacity: 50%;
   margin-top: 220px;
 }
+#Codetxt5a{
+  display: flex;
+  font-size: 20px;
+  padding-left: 300px;
+  font-family: 'Handlee';
+  opacity: 50%;
+  margin-top: 220px;
+}
 
 #Codetxt7 {
   display: flex;
@@ -628,8 +636,8 @@ font-family:'Handlee';
 #project1txt{
   font-size: 35px;
   font-family: 'Handlee';
-  padding-left: 670px;
   margin-bottom: -110px;
+  text-align: center;
 } 
 
 /* Styling the text for footer*/

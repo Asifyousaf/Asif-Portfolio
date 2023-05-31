@@ -1,0 +1,470 @@
+/* Styles for screens larger than or equal to 1080px and up to 1280px */
+@media screen and (min-width: 1080px) and (max-width: 1280px) {
+  /* Your styles for screens larger than or equal to 1080px and up to 1280px */
+}
+@media screen and (min-width: 1080px) and (max-width: 1180px) {
+
+}
+/* Styles for screens larger than 1280px and up to 1366px */
+@media screen and (min-width: 1281px) and (max-width: 1366px) {
+  /* Your styles for screens larger than 1280px and up to 1366px */
+}
+
+/* Styles for screens larger than 1366px and up to 1440px */
+@media screen and (min-width: 1367px) and (max-width: 1440px) {
+  /* Your styles for screens larger than 1366px and up to 1440px */
+}
+
+/* Styles for screens larger than 1440px and up to 1660px */
+@media screen and (min-width: 1441px) and (max-width: 1660px) {
+  /* Your styles for screens larger than 1440px and up to 1660px */
+}
+
+/* Styles for screens larger than 1660px and up to 1920px */
+@media screen and (min-width: 1661px) and (max-width: 1920px) {
+  /* Your styles for screens larger than 1660px and up to 1920px */
+}
+
+/* Styles for screens larger than 1920px */
+@media screen and (min-width: 1921px) {
+  /* Your styles for screens larger than 1920px */
+}
+
+    /* (1280x1024)  */
+
+  
+  
+  
+  /* (1366x768) Display */
+  @media  screen and (max-width: 1366px) {
+    
+  
+  }
+  
+  /* Medium-sized monitors */
+  @media only screen and  (max-width: 400px) {
+    
+  }
+  
+  /* (1440x900) WXGA+ Display */
+  @media  screen and (max-width: 1440px) {
+    /* insert styles here */
+  }
+  
+  /* (1680x1050) WSXGA+ Display */
+  @media  screen and (max-width: 1680px) {
+    /* insert styles here */
+  }
+  @media screen and (min-width: 1920px) {
+    
+  }
+  
+
+  @media screen and (max-width: 1439px) {
+    #Textmain{
+      font-size:35px;
+    }
+    
+    #Textmain2{
+      font-size: 32px;
+    }
+    .myname{
+      font-size: 23px;
+    }
+    .starttxt {
+      font-family:'Roboto Mono';
+    padding-left: 17%;
+    padding-top: 56%;
+    }
+    .circle{
+      left: 14.35%;
+      width: 20px;
+      height: 20px;
+    }
+    .circle1{
+      top: 434vh;
+      left: 14.4%;
+    }
+    
+    #Codetxt,#Codetxt6{ padding-left: 235px;
+      font-size: 16.5px;
+    }
+    #Codetxt1, #Codetxt2,#Codetxt4,#Codetxt3,#Codetxt7  {
+      font-size: 16.5px;
+      padding-left: 215px;
+    }
+
+    #Codetxt6 {
+
+      font-size: 20px;
+      padding-left: 220px;
+    }
+    #soundboard1 img{
+      width: 800px;
+    }
+    .Line4 {
+      height: 149px;
+      top: 30%;
+      
+    } 
+    .circle4{
+      top: 149vh;
+    }
+   #side_nav li a {
+    height: 40px;
+    color: #d8d8d8;
+    line-height: 36px;
+    font-size: 10px;
+    font-weight: bolder;
+   }
+    .nav__wrapper{
+    margin-right: 10px;
+    }
+
+    .line{
+      margin-right: 10px;
+    }
+    .Aboutme{
+      font-family: "Handlee";
+      font-size: 17px;
+      padding-left: 220px;
+    }
+
+    .cover {
+      padding-left: 10%; 
+      padding-right: 1.5%; 
+      height: 120px;
+      padding-top: 7%;
+      display: flex;
+      flex-wrap: wrap; 
+      justify-content: center; 
+      margin-bottom: 190px;
+    }
+    .cover h3{
+      justify-items: center;
+      font-size: 15px;
+      text-decoration: underline purple ;
+    }
+    .box {
+      font-size: 15px;
+      width: 270px;
+      padding: 10px;
+      margin: 9px;
+    }
+    .Progresscolor {
+      margin-left: -50px;
+      width: 500px;
+      padding: 20px;
+      border-radius: 30px;
+      margin-bottom: 20px;
+    }
+    .card {
+      width: 330px;
+      border-radius: 10px;
+      padding: 10px;
+      margin-right: 100px; 
+      margin-left: 0px;
+      margin-bottom: 40px;
+    }
+    .card h3 {
+      font-size: 12px;
+    }
+    
+    .Line{
+      height:405%;
+    }
+    #Codetxt5 {
+      display: flex;
+      font-size: 20px;
+      padding-left: 210px;
+      font-family: 'Handlee';
+      opacity: 50%;
+      margin-top: 150px;
+    }
+     #Textmain3{
+      font-size: 16px;
+      padding-right: 170px;
+    }
+    #Textmain5{
+      font-size: 19px;
+      padding-right: 270px;
+    }
+    #Textmain4{
+      font-family:'Handlee';
+      font-size: 21px;  
+      margin-top: 430px;
+      padding-left: 320px;
+    }
+  
+    #project1txt{
+      font-size: 35px;
+      font-family: 'Handlee';
+      padding-left: 410px;
+      margin-bottom: -110px;
+    } 
+    .Line2 {
+    
+      height: 340%;
+      
+    } 
+    .circle2{
+      top: 369vh;
+    }
+    .Line3{
+     
+      height: 485%;}
+    .circle3{
+      top: 514vh; 
+      }
+    .Line4 {
+      height: 175%;
+      }
+    .circle4{
+      top: 204vh;
+    }
+    .temperaturecalc{
+      width: 800px;
+      height: 500px;
+
+    }
+  }
+
+
+  @media screen and (max-width: 1599px) {
+    #Textmain{
+      font-size:35px;
+    }
+    
+    #Textmain2{
+      font-size: 32px;
+    }
+    .myname{
+      font-size: 23px;
+    }
+    .starttxt {
+      font-family:'Roboto Mono';
+    padding-left: 17%;
+    padding-top: 52%;
+    }
+    .circle{
+      left: 14.35%;
+      width: 20px;
+      height: 20px;
+    }
+    .circle1{
+      top: 412vh;
+      left: 14.44%;
+    }
+
+    #soundboard1 img{
+      width: 800px;
+    }
+    .Line4 {
+      height: 149px;
+      top: 30%;
+      
+    } 
+    .circle4{
+      top: 149vh;
+    }
+   #side_nav li a {
+    height: 40px;
+    color: #d8d8d8;
+    line-height: 46px;
+    font-size: 15px;
+    font-weight: bolder;
+   }
+    .nav__wrapper{
+    margin-right: 10px;
+    }
+
+    .line{
+      margin-right: 10px;
+    }
+    .Aboutme{
+      font-size: 18px;
+      padding-left: 280px;
+    }
+ 
+    .cover {
+      padding-left: 10%; 
+      padding-right: 1.5%; 
+      height: 120px;
+      padding-top: 7%;
+      display: flex;
+      flex-wrap: wrap; 
+      justify-content: center; 
+      margin-bottom: 190px;
+    }
+    .cover h3{
+      justify-items: center;
+      font-size: 15px;
+      text-decoration: underline purple ;
+    }
+    .box {
+      font-size: 15px;
+      width: 270px;
+      padding: 10px;
+      margin: 9px;
+    }
+    .Progresscolor {
+      margin-left: -50px;
+      width: 500px;
+      padding: 20px;
+      border-radius: 30px;
+      margin-bottom: 20px;
+    }
+    .card {
+      width: 390px;
+      border-radius: 10px;
+      padding: 10px;
+      margin-right: 100px; 
+      margin-left: 0px;
+      margin-bottom: 40px;
+    }
+    .card h3 {
+      font-size: 12px;
+    }
+    
+    .Line{
+      height:383%;
+    }
+
+     #Textmain3{
+      font-size: 16px;
+      padding-right: 170px;
+    }
+    #Textmain5{
+      font-size: 19px;
+      padding-right: 270px;
+    }
+    #Textmain4{
+      font-family:'Handlee';
+      font-size: 21px;  
+      margin-top: 430px;
+      padding-left: 320px;
+    }
+  
+    #project1txt{
+      font-size: 35px;
+      font-family: 'Handlee';
+      padding-left: 410px;
+      margin-bottom: -110px;
+    } 
+    .Line2 {
+    
+      height: 340%;
+      
+    } 
+    .circle2{
+      top: 369vh;
+    }
+    .Line3{
+     
+      height: 365%;}
+    .circle3{
+      top: 394vh; 
+      }
+    .Line4 {
+      height: 125%;
+      }
+    .circle4{
+      top: 154vh;
+    }
+    .temperaturecalc{
+      width: 800px;
+      height: 500px;
+    }
+    
+  }
+  @media  screen and (max-width: 1919px) {
+    .starttxt {
+      padding-left: 17%;
+      padding-top: 54%;
+      }
+      
+      .circle{
+        top: 29%;
+        left: 14.55%;
+        width: 20px;
+        height: 20px;
+      }
+      .circle1{
+        top: 362vh;
+        left: 14.54%;
+      }
+  
+      #soundboard1 img{
+        width: 800px;
+      }
+      .Line4 {
+        height: 149px;
+        top: 30%;
+        
+      } 
+      .circle4{
+        top: 149vh;
+      }
+     
+      .Line{
+        height:333%;
+      }
+      #Codetxt5 {
+        display: flex;
+        font-size: 20px;
+        padding-left: 300px;
+        font-family: 'Handlee';
+        opacity: 50%;
+        margin-top: 275px;
+      }
+    
+      #Textmain4{
+        font-family:'Handlee'; 
+        margin-top: 430px;
+      }
+    
+      #project1txt{
+        font-size: 35px;
+        font-family: 'Handlee';
+        padding-left: 410px;
+        margin-bottom: -110px;
+      } 
+      .Line2 {
+        height: 256%;
+      } 
+      .circle2{
+        top: 285vh;
+      }
+      .Line3{
+       
+        height: 307%;}
+      .circle3{
+        top: 336vh; 
+        }
+      .Line4 {
+        height: 105%;
+        }
+      .circle4{
+        top: 134vh;
+      }
+      .Line5{
+        height: 116%;
+      }
+      .circle5{
+        top: 145vh;
+        left: 14.54%;
+      }
+      .temperaturecalc{
+        width: 800px;
+        height: 500px;
+      }
+      #project1txt{
+        font-size: 35px;
+        font-family: 'Handlee';
+        padding-left: 670px;
+        margin-bottom: -110px;
+      } 
+    } 
+    
+   
+  
