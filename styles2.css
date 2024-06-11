@@ -95,7 +95,17 @@
   background-color: #f8f6f6;
   transition: all 0.3s ease-in-out;
 }
+@media (max-width: 1200px){
 
+  .Line {
+    height: 345%;
+  } 
+  .circle1{
+    top: 375vh;
+    left: 14.5%;
+  }
+  
+}
 
 /* For screens larger than 1200px (desktops) */
 @media (min-width: 1200px) and (max-width: 1365px){
@@ -141,28 +151,22 @@
   .Line3{
     height: 419%;
   }
-  .circle3{
-  
+  .circle3{ 
     top: 449vh;
-  
-
     height: 20px;
   }
     /* For project 1 */
     .Line2{
       height: 360%;
     }
-    .circle2{
-    
+    .circle2{    
       top: 389vh;
-    
-  
+
       height: 20px;
     }
     .temperaturecalc{
       width: 60%;
       height:40%;
-
     }
     #Textmain3{
       max-width: 1020px;  
@@ -170,7 +174,13 @@
     .starttxt {
       padding-top: 52%;
     }
-  
+    .Line {
+      height: 345%;
+    } 
+    .circle1{
+      top: 375vh;
+      left: 14.5%;
+    }
 }
 @media (min-width: 1366px) and (max-width: 1439px){
   /* CSS rules for desktop screens */
@@ -217,21 +227,15 @@
     height: 419%;
   }
   .circle3{
-  
     top: 449vh;
-  
-
     height: 20px;
   }
     /* For project 1 */
     .Line2{
       height: 360%;
     }
-    .circle2{
-    
+    .circle2{  
       top: 389vh;
-    
-  
       height: 20px;
     }
     .temperaturecalc{
@@ -245,9 +249,16 @@
     .starttxt {
       padding-top: 47%;
     }
-  
+    .Line {
+      height: 345%;
+    } 
+    .circle1{
+      top: 375vh;
+      left: 14.5%;
+    }
 }
 @media (min-width: 1440px) and (max-width: 1511px){
+ 
   #Codetxt,#Codetxt6{ padding-left: 235px;
     font-size: 16.5px;
     padding-right: 5px;
@@ -314,10 +325,10 @@
     padding-top: 47%;
   }
   .Line {
-    height: 435%;
+    height: 350%;
   } 
   .circle1{
-    top: 465vh;
+    top: 379vh;
     left: 14.4%;
   }
 }
@@ -389,10 +400,10 @@
     padding-top: 47%;
   }
   .Line {
-    height: 445%;
+    height: 355%;
   } 
   .circle1{
-    top: 45vh;
+    top: 385vh;
     left: 14.4%;
   }
 }
@@ -424,10 +435,10 @@
     padding-top: 47%;
   }
   .Line {
-    height: 445%;
+    height: 375%;
   } 
   .circle1{
-    top: 475vh;
+    top: 405vh;
     left: 14.5%;
   }
   .temperaturecalc{
@@ -454,13 +465,14 @@
     padding-left: 270px;
     margin-top: 194px;
   }
-  .Line2{
-    height: 350%;
+  .Line {
+    height: 375%;
+  } 
+  .circle1{
+    top: 405vh;
+    left: 14.5%;
   }
-  .circle2{
-  top: 379vh;
-  height: 20px;
-  }
+ 
   #Textmain4{  
     margin-top: 480px;
  
