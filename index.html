@@ -1,316 +1,249 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"><!-- Meta tag for diff device width -->
-    <link rel="stylesheet" href="styles.css"><!-- External CSS file linked to the HTML document -->
-    <link rel="stylesheet" href="styles2.css"><!-- External CSS file linked to the HTML document -->
-
-    <title>Asif Yousaf | Dev </title><!-- Title -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles1.css">
+    
+    <script src="script1.js"></script>
+    <title>My Portfolio</title>
 </head>
 <body>
-  <section id="first-section">
-    <!-- Splash Section -->
-    <div id="Splash">
-        <div class="name">
-            <h1 data-text="AsifYousaf" id="1st">AsifYousaf</h1>
-        </div>
-    </div>
-    <!-- Header Image and name  -->
-    <img src="Images/main-icon.png" class="Headimg"></img>
-    <span class="myname">
-        Dev_Asif
-      </span>
-    
-     <!-- Page Dividers the line and small circle-->
-      <div class="Line"></div>
-      <div class="circle"></div>
-    
-      
-    <!-- GitHub Button -->
-    <div class="github-button">
-      <a href="https://github.com/Asifyousaf" target="_blank">
-        <img src="Images/github-ico.png" alt="GitHub Logo" width="30" height="30">
-        GitHub
-      </a>
-    </div>
-    <!-- Navigation bar line-->
     <div class="line"></div>
-    <!-- Navigation Menu -->
-    <nav class="nav__wrapper" >
-      <ul id="side_nav">
-        <li>
-          <a href="#" title="Home">// Home</a>
-          <span></span>
-        </li>
-        <li>
-          <a href="#title2" title="My Expertise">// My Expertise</a>
-          <span></span>
-        </li>
-        <li>
-          <a href="#title3" title="Projects">// Projects</a>
-          <span></span>
-        </li>
-        <li>
-          <a href="#Aboutme1" title="About me">// About me</a>
-          <span></span>
-        </li>
-        <li>
-          <a href="#footercolor" title="Contact">// Contact</a>
-          <span></span>
-        </li>
-      </ul>
-    </nav>
-  
-     <!-- Main Content -->
-    <h2 id="Textmain">Hey, I'm <span class="namecolor">Asif Yousaf</span></h2>
-    <h2 id="Textmain2">I'm Learning <span style="font-family: 'Roboto Mono';">Design</span> and <span style="font-family: 'Roboto Mono';">Coding</span></h2>
-    <div class="starttxt">
-
-       <!-- start button  -->
-    <a href="#title2">Let's start.</a> </div>
-
-     <!-- My Expertise Section -->
-    <h2 id="title2" >My Expertise</h2>
-    <h4 id="Codetxt1"><span class="symbol1">&lt;</span>html<span class="symbol1">&gt;</span></h4>
-    <h4 id="Codetxt"><span class="symbol1">&lt;</span>body<span class="symbol1">&gt;</span></h4> 
-    <h4 id="Codetxt2"><span class="symbol1">&lt;</span>h2<span class="symbol1">&gt;</span></h4>
-      
-      <!-- Expertise section -->
-      <div class="cover">
-        <!-- Expertise box HTML -->
-        <div class="box">
-            <h3>HTML</h3>
-            <p>I have been studying HTML for a over a year, and I have acquired a excellent  understanding of the basics. I am familiar with the HTML structure, tags, and other attributes!</p>
-        </div>
-          <!-- Expertise Box css -->
-        <div class="box">
-            <h3>CSS</h3>
-            <p>I have a strong interest about Styling and enhancing visuals for engaging UI/UX.
-        </div>
-          <!-- Expertise Box js -->
-        <div class="box">
-            <h3>Java</h3>
-            <p> New to Java started learning recently with enthusiasm to expand my programming skills.</p>
-        </div>
+     <!-- GitHub Button -->
+     <div class="github-button">
+        <a href="https://github.com/Asifyousaf" target="_blank">
+          <img src="Images/github-ico.png" alt="GitHub Logo" width="30" height="30">
+          GitHub
+        </a>
       </div>
-    
-     <!-- Code writing on side -->
-    <h4 id="Codetxt4"><span class="symbol1">&lt;</span>h2<span class="symbol1">/&gt;</span></h4>
-    <h4 id="Codetxt3"><span class="symbol1">&lt;</span>p<span class="symbol1">&gt;</span></h4>
-    
-    <!-- My progress in languages -->
-    <div class="cover"><div class="Progresscolor">
-      <h3 style="text-align: center;">My Skills</h3>
-      
-        <h3>HTML</h3>
-        <div class="progress-bar">
-          <div class="progress" style="width: 80%;"></div><!-- HTML 80%-->
-        </div>
-        <h3>CSS</h3>
-        <div class="progress-bar">
-          <div class="progress" style="width: 70%;"></div><!-- CSS 70%-->
-        </div>
-        <h3>JavaScript</h3>
-        <div class="progress-bar">
-          <div class="progress" style="width: 25%;"></div><!-- JS 25%-->
-        </div>
-        <h3>Creativity</h3>
-        <div class="progress-bar">
-          <div class="progress" style="width: 99%;"></div><!-- CREATIVENESS 99% :) -->
-        </div>
-      </div>
+    <div class="hamburger" id="hamburger">
+        &#9776; 
+        <ul class="mobile-menu" id="mobile-menu">
+            <li><a href="#first-section">Home</a></li>
+            <li><a href="#second-section">My Expertise</a></li>
+            <li><a href="#third-section">Projects</a></li>
+            <li><a href="#footercolor">Contact</a></li>
+        </ul>
     </div>
+    <nav class="nav__wrapper">
+        <ul id="side_nav">
+            <li>
+                <a href="#first-section" title="Home">// Home</a>
+                <span></span>
+            </li>
+            <li>
+                <a href="#second-section" title="My Expertise">// My Expertise</a>
+                <span></span>
+            </li>
+            <li>
+                <a href="#third-section" title="Projects">// Projects</a>
+                <span></span>
+            </li>
+            <li>
+                <a href="#footercolor" title="Contact">// Contact</a>
+                <span></span>
+            </li>
+        </ul>
+    </nav>
 
-    <!-- Code writing on side -->
-    <h4 id="Codetxt5"><span class="symbol1">&lt;</span>p<span class="symbol1">/&gt;</span></h4>
-    <h4 id="Codetxt6"><span class="symbol1">&lt;</span>body<span class="symbol1">/&gt;</span></h4>
-    <h4 id="Codetxt7"><span class="symbol1">&lt;</span>html<span class="symbol1">/&gt;</span></h4>
+    <section id="first-section">
+        <div class="overlay"></div>
+        <header> 
+            <div class="logo">
+                <h1>AsifDev.<span id="logoclr">_</span></h1>
+            </div>
+        </header>
+        <div class="container1">
+            <h1 id="Textmain2"><span id="textmain1">Hi it's</span> ASIF YOUSAF</h1>
+            <h2 id="Textmain3">FRONT END & APP DEVELOPER.</h2>
+        </div>
     </section>
+
+    <section id="second-section">
+        <h1 id="Textmain4">My Expertise</h1>
+        <div class="container2">
+            <div class="row">
+                <div class="square sq1">
+                    <div class="top-section">
+                        <div class="htmllogo">
+                            <img src="Images/htmlogo.png" alt="HTML Logo">
+                        </div>
+                        <h1 id="sq1font" class="chonky-underline-megenta">HTML</h1>
+                    </div>
+                    <div class="ContainerS1">
+                        <div class="h3-wrapper">
+                            <h3 class="code-tag">
+                                I have over a year of experience with HTML, mastering its structure, tags, and attributes.
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+            
+
+                <div class="square sq1">
+                    <div class="top-section-2">
+                        <div class="csslogo">
+                            <img src="Images/csslogo.png" alt="HTML Logo">
+                        </div>
+                        <h1 id="sq1font" class="chonky-underline-megenta">Css</h1>
+                    </div>
+                    <div class="ContainerS1">
+                        <div class="h3-wrapper">
+                            <h3 class="code-tag">
+                                I have a strong interest about Styling and enhancing visuals for engaging UI/UX.
+                            </h3>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="square sq1">
+
+                    <div class="top-section-2">
+                        <div class="csslogo">
+                            <img src="Images/jslogo.png" alt="HTML Logo">
+                        </div>
+                        <h1 id="sq1font" class="chonky-underline-megenta">Js</h1>
+                    </div>
+                    <div class="ContainerS1">
+                        <div class="h3-wrapper">
+                            <h3 class="code-tag">
+                                New to Java started learning recently with enthusiasm to expand my programming skills.  </h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row row1">
+                <div class="square sq1">
+                    <div class="top-section-2">
+                        <div class="kotlinlogo">
+                            <img src="Images/kotlinlogo.png" alt="Kotlin Logo">
+                        </div>
+                        <h1 id="sq1font" class="chonky-underline-megenta">Android</h1>
+                    </div>
+                    
+                        <div class="h3-wrapper1">
+                            <h3 class="code-tag1">
+                                I am developing Android apps with Kotlin in Android Studio, improving my skills in crafting efficient applications.  </h3>
+                        </div>
+                    
+                </div>
+                    
+                <div class="square sq1">
+                    <div class="top-section-2">
+                        <div class="csslogo">
+                            <img src="Images/Python.png" alt="Python Logo">
+                        </div>
+                        <h1 id="sq1font" class="chonky-underline-megenta">Python</h1>
+                    </div>
+                    
+                        <div class="h3-wrapper1">
+                            <h3 class="code-tag1">
+                                I have 2 years of experience in Python, developing various projects and enhancing my programming skills.
+                            </h3>
+                        </div>
+                    
+
+
+                </div>
+            </div>
+        </div> 
+    </section>
+
+    <section id="third-section">
+        <h1 id="Textmain5">My Projects</h1>
+        <div class="containerS3">
+            <div class="card">
+                <div class="box">
+                    <img src="Images/masatalnahar.png" alt="">
+                    <div class="overlay">
+                        <h3>Masat Al nahar</h3>
+                        <p>Web Development</p>
+                        <a href="https://www.figma.com/design/EbVP0zAOfFQh47ipLr8vGj/Untitled?node-id=0-1&t=mW5R9So3ZYa2oFnX-1">Show Project</a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="card">
+                <div class="box">
+                    <img src="Images/project1-background.png" alt="">
+                    <div class="overlay">
+                        <h3>Vending Machine</h3>
+                        <p>Automated Vending Machine Application</p>
+                        <a href="https://colab.research.google.com/drive/1mQVItxmt5p4WS6DzjZE0csT3GSjUSxxV?usp=sharing">Show Project</a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="card">
+                <div class="box">
+                    <img src="Images/web.png" alt="">
+                    <div class="overlay">
+                        <h3>TIME Magazine</h3>
+                        <p>Web Development</p>
+                        <a href="https://asifyousaf.github.io/Magazine.github.io/">Show Project</a>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="card">
+                <div class="box">
+                    <img src="Images/car service.jpeg" alt="">
+                    <div class="overlay">
+                        <h3>Fix My Ride</h3>
+                        <p>Application</p>
+                        <a href="https://www.figma.com/design/1d641mijroI1sBszp7QlSr/High-fi---Fix-My-Ride?node-id=0-1&t=aZph7JpeEYl7Gsch-1">Show Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>   
+        <a href="https://github.com/Asifyousaf" target="_blank" class="projects">More Projects</a>
+    </section>
+
+
+    <footer id="footercolor">
+        <footer class="footer">
+
+            <!-- lines on top of the footer-->
+              <div class="lines-part">
+                <div class="horzoline1"></div>
+                <div class="horzoline2"></div>
+                <div class="horzoline3"></div>
+              </div>
     
-    <!-- Projects section -->
-    <section>
-      <h2 id="title3">My Projects</h2>
-      <h4 id="Codetxt8">Hover<span class="Arrow">↓</span></h4>
-      <div class="card-container">
-
-          <!-- Project 1 -->
-        <div class="card">
-          <div class="container1">
-            <img src="Images/project1-background.png" alt="Project Image">
-            <div class="centered">Vending Machine</div>
-          </div>
-          <div class="txtimg">
-            <h3>// Project 1</h3>
-          </div>
-          <a href="Project1.html" target="_blank">View Project</a>
-        </div>
-
-          <!-- Project 2 -->
-        <div class="card">
-          <div class="container1">
-            <img src="Images/Project2-background.png" alt="Project Image">
-            <div class="centered">WEBSITE Re-Design</div>
-          </div>
-          <h3>// Project 2</h3>
-          <a href="project2.html"target="_blank">View Project</a>
-        </div>
-
-          <!-- Project 3 -->
-        <div class="card">
-          <div class="container1">
-            <img src="Images/Project3-background.jpg" alt="Project Image" height="240">
-            <div class="centered">Soundboard Design</div>
-          </div>
-          <div class="txtimg">
-            <h3>// Project 3</h3>
-          </div>
-          <a href="project3.html"target="_blank">View Project</a>
-        </div>
-
-          <!-- Project 4 -->
-        <div class="card">
-          <div class="container1">
-            <img src="Images/Project4-background.PNG" alt="Project Image">
-            <div class="centered">Temperature Calculator</div>
-          </div>
-          <div class="txtimg">
-            <h3>// Project 4</h3>
-          </div>
-          <a href="project4.html"target="_blank">View Project</a>
-        </div>
-        
-        <div class="card">
-          <div class="container1">
-            <img src="Images/web.png" alt="Project Image">
-            <div class="centered">Magazine Website</div>
-          </div>
-          <div class="txtimg">
-            <h3>// Project 5</h3>
-          </div>
-          <a href="project5.html"target="_blank">View Project</a>
-        </div>
-
-        <div class="card">
-          <div class="container1">
-            <img src="Images/meal makere.png" alt="Project Image" style="height: 200px;">
-            <div class="centered">Meal Maker Api</div>
-          </div>
-          <div class="txtimg">
-            <h3>// Project 6</h3>
-          </div>
-          <a href="https://github.com/Asifyousaf/MealMakerApi"target="_blank">View Project</a>
-        </div>
-
-        <div class="card">
-          <div class="container1">
-            <img src="Images/car service.jpeg" alt="Project Image" style="width: 420px;">
-            <div class="centered">Car service</div>
-          </div>
-          <div class="txtimg">
-            <h3>// Project 7</h3>
-          </div>
-          <a href="https://www.figma.com/design/1d641mijroI1sBszp7QlSr/High-fi---Fix-My-Ride?node-id=0-1&t=aZph7JpeEYl7Gsch-1"target="_blank">View Project</a>
-        </div>
-
-        <div class="card">
-          <div class="container1">
-            <img src="Images/web2.png" alt="Project Image">
-            <div class="centered">Masat al nahar technical</div>
-          </div>
-          <div class="txtimg">
-            <h3>// Project 8</h3>
-          </div>
-          <a href="https://github.com/Asifyousaf/masatalnahar.io"target="_blank">View Project</a>
-          <a href="https://www.figma.com/design/EbVP0zAOfFQh47ipLr8vGj/Untitled?node-id=0-1&t=mW5R9So3ZYa2oFnX-1"target="_blank">View figma</a>
-        </div>
-
-      </div>
-      
-    </section>
-
-     <!-- About Me section -->
-     <section id="Aboutme1"></section>
-    <h2 id="title3">About me</h2>
-      <div class="Aboutme">
-      <!-- About me section written in Code style -->
-      <pre><code></code>
-  01      &lt;h2&gt;<span class="Aboutme1">About Me</span>&lt;/h2&gt;
-  02     
-  03       &lt;ul&gt;<span style="color: #01a049;">
-  04        &lt;li&gt;Name: Asif Yousaf&lt;/li&gt;
-  05        &lt;li&gt;Age: 18&lt;/li&gt;
-  06        &lt;li&gt;From: Pakistan&lt;/li&gt;</span>
-  07      &lt;/ul&gt;
-  08      
-  09      &lt;h3&gt;<span class="Aboutme1">Education</span>&lt;/h3&gt;
-  10      &lt;p&gt;<span style="color: #01a049;">I'm currently pursuing a degree in Creative Computing at the university. Through this program,
-  11      I'm gaining a strong foundation in programming concepts, software development, and creative problem-solving.</span>&lt;/p&gt;
-  23      
-  24      &lt;h3&gt;<span class="Aboutme1">Skills</span>&lt;/h3&gt;
-  25      &lt;ul&gt;<span style="color: #01a049;">
-  26        &lt;li&gt;Python&lt;/li&gt;
-  27        &lt;li&gt;Java&lt;/li&gt;
-  28        &lt;li&gt;HTML&lt;/li&gt;
-  29        &lt;li&gt;CSS&lt;/li&gt;</span>
-  30      &lt;/ul&gt;
-  31      
-  32      &lt;h3&gt;<span class="Aboutme1">Projects</span>&lt;/h3&gt;
-  33      &lt;p&gt;<span style="color: #01a049;">I've worked on several interesting projects. 
-  34      One of my notable projects includes developing a vending machine system using Python . 
-  35      and few more which helped my problem-solving, enhancing my skills in programming,.</span>&lt;/p&gt;
-  36      
-  36      &lt;h3&gt;<span class="Aboutme1">Contact</span>&lt;/h3&gt;
-  37      &lt;p&gt;<span style="color: #01a049;">Feel free to reach out to me at: &lt;a href="mailto:asifyousaf14@gmail.com"&gt;asifyousaf14@gmail.com&lt;/a&gt;. 
-  38      I'm open to collaboration and always excited to connect with fellow developers!</span>&lt;/p&gt;
-          </code></pre>
-
-        <!-- Code writing on side-->
-        <div class="circle1"></div>
-        <h4 id="Codetxt9"><span class="symbol1">&lt;</span>End<span class="symbol1">/&gt;</span></h4></div>
-
-       <!-- Footer section -->
-       <section id="footercolor">
-       <footer class="footer">
-
-        <!-- lines on top of the footer-->
-          <div class="lines-part">
-            <div class="horzoline1"></div>
-            <div class="horzoline2"></div>
-            <div class="horzoline3"></div>
-          </div>
-
-        <!-- Decorative img with the line on footer-->
-          <div class="decor-images">
-            <img alt="image description"  class="decorimg" src="Images/footer-img-main.jpg"></div>
-       <div class="footerheading">
-          <div class="logo"></div>
-          <div class="separator"></div>
-        <!-- Footer -->
-        <div class="name">
-          Dev_Asif
-        </div>
-      
-       </div>
-       <!-- main text of footer sectiom with social links-->
-        <h3 id="footertxt">You can connect with me</h3>
-        <div class="social-media">
-          <a href="https://www.linkedin.com/in/asif-khan-177888278/" target="_blank" title="LinkedIn">
-            <img src="Images/linkedin-ico.png" alt="LinkedIn"  width="30px" >
-          </a>
-          <a href="https://github.com/Asifyousaf" target="_blank" title="GitHub">
-            <img src="Images/github-ico.png" alt="GitHub">
-          </a>
-          <a href="https://twitter.com/" target="_blank" title="Twitter">
-            <img src="Images/twitter-ico.png" alt="Twitter"  width="26px">
-          </a>
-        </div>
-        <p id="footertxt">Feel free to reach out to me for collaboration or any inquiries:</p>
-        <button id="footerbtn">
-          <a href="mailto:asifyousaf14@gmail.com">GET IN TOUCH</a>
-        </button>
-      </footer>
-    </section>
-    
-    <script src="script.js"></script></div><!-- Javascript linked-->
+            <!-- Decorative img with the line on footer-->
+              <div class="decor-images">
+                <img alt="image description"  class="decorimg" src="Images/footer-img-main.jpg"></div>
+           <div class="footerheading">
+              <div class="logo"></div>
+              <div class="separator"></div>
+            <!-- Footer -->
+            <div class="name">
+              Dev_Asif
+            </div>
+          
+           </div>
+           <!-- main text of footer sectiom with social links-->
+            <h3 id="footertxt">You can connect with me</h3>
+            <div class="social-media">
+              <a href="https://www.linkedin.com/in/asif-khan-177888278/" target="_blank" title="LinkedIn">
+                <img src="Images/linkedin-ico.png" alt="LinkedIn"  width="30px" >
+              </a>
+              <a href="https://github.com/Asifyousaf" target="_blank" title="GitHub">
+                <img src="Images/github-ico.png" alt="GitHub">
+              </a>
+              <a href="https://twitter.com/" target="_blank" title="Twitter">
+                <img src="Images/twitter-ico.png" alt="Twitter"  width="26px">
+              </a>
+            </div>
+            <p id="footertxt">Feel free to reach out to me for collaboration or any inquiries:</p>
+            <button id="footerbtn">
+              <a href="mailto:asifyousaf14@gmail.com">GET IN TOUCH</a>
+            </button>
+          </footer>
+    </footer>
 </body>
 </html>
