@@ -5,7 +5,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&family=Roboto+Mono:ital,wght@0,700;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
 
+.maincontainer{
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: 100vh;
+  
 
+}
+#first-section, #second-section, #third-section,#footercolor{
+  scroll-snap-align: start;
+  overflow-y: scroll;
+  overflow: hidden;
+}
 html, body {
   width: 100%;
   overflow-x: hidden; 
@@ -228,7 +239,7 @@ html, body {
     font-weight: 700;
     color: white;
     padding-bottom: 57.6px;
-    
+   
 }
 .container2 {
   display: flex;
@@ -445,7 +456,7 @@ html, body {
     position: relative;
     font-weight: 700;
     color: white;
-    padding-bottom: 3vw;
+  
 }
 .projects{
   width: 220px;
@@ -745,7 +756,10 @@ font-size: 20px;
   border-radius: 50px;
   padding: 9px 10px; 
 }
+.github-button{
 
+  display: none;
+}
 
  }
  @media only screen and (min-width: 371px) and (max-width: 520px) {
@@ -941,12 +955,17 @@ font-size: 20px;
   top: -130px !important;
   left: 0;
  
+}.github-button{
+  right: 70px !important;
 }
  }
 
 
 /* Small devices such as large phones (640px and up) */
 @media only screen and (min-width: 521px)and (max-width: 640px) {
+  .github-button{
+    right: 70px !important;
+  }
   .decor-images .decorimg {
     filter: contrast(3);
     width: 220px !important;
@@ -1097,6 +1116,9 @@ font-size: 20px;
 
 
 @media only screen and (min-width: 641px) and (max-width:768px){
+  .github-button{
+    right: 70px!important;
+  }
   .decor-images .decorimg {
     filter: contrast(3);
     width: 250px !important;
@@ -1234,6 +1256,7 @@ font-size: 20px;
 /* Large devices such as laptops (1024px and up) */
 @media only screen and (min-width: 1024px) {...}
 @media only screen and (min-width: 769px) and (max-width: 1100px) {
+
   .row {
     display: grid;
     grid-template-columns: 1fr 1fr; /* Two columns */
@@ -1419,7 +1442,7 @@ footer {
 .github-button {
   position: absolute;
   top: 10px;
-  right: 10px;
+  right: 20px;
   padding: 10px;
   border: 2px white solid;
   border-radius: 5px;
