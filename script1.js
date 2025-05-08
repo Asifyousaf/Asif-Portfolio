@@ -2,32 +2,21 @@
 document.addEventListener('DOMContentLoaded', () => {
     const hamburger = document.getElementById('hamburger');
     const mobileMenu = document.getElementById('mobile-menu');
-    const navItems = document.querySelectorAll('#side_nav li a, .mobile-menu li a');
-    const sideNav = document.querySelector('.nav__wrapper');
+    const navItems = document.querySelectorAll('#side_nav li a');
+    const mobileNavItems = document.querySelectorAll('#mobile-menu li a');
+    const projectCards = document.querySelectorAll('.card');
     const sections = document.querySelectorAll('section');
     
-    // Function to check screen width and adjust navigation visibility
-    function checkScreenSize() {
-        if (window.innerWidth <= 768) {
-            sideNav.style.display = 'none';
-            hamburger.style.display = 'flex';
-        } else {
-            sideNav.style.display = 'block';
-            hamburger.style.display = 'none';
+  // Mobile menu toggle
+  hamburger.addEventListener('click', () => {
+    mobileMenu.style.display = mobileMenu.style.display === 'block' ? 'none' : 'block';
+}); 
+    
+    // Close mobile menu when clicking outside
+    document.addEventListener('click', (e) => {
+        if (mobileMenu.style.display === 'block' && !mobileMenu.contains(e.target)) {
             mobileMenu.style.display = 'none';
         }
-    }
-    
-    // Run on page load
-    checkScreenSize();
-    
-    // Run when window is resized
-    window.addEventListener('resize', checkScreenSize);
-    
-    // Mobile menu toggle
-    hamburger.addEventListener('click', (e) => {
-        e.stopPropagation();
-        mobileMenu.style.display = mobileMenu.style.display === 'block' ? 'none' : 'block';
     });
     
     // Add active class to nav items when scrolling
@@ -50,8 +39,10 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
     
-    // Smooth scroll for navigation
-    navItems.forEach(anchor => {
+    // Smooth scroll for navigation (both side and mobile)
+    const allNavItems = [...navItems, ...mobileNavItems];
+    
+    allNavItems.forEach(anchor => {
         anchor.addEventListener('click', function(e) {
             e.preventDefault();
             
@@ -84,12 +75,57 @@ document.addEventListener('DOMContentLoaded', () => {
         observer.observe(el);
     });
     
-    // Close mobile menu when clicking outside
-    document.addEventListener('click', function(event) {
-        if (mobileMenu.style.display === 'block' && 
-            !hamburger.contains(event.target) && 
-            !mobileMenu.contains(event.target)) {
-            mobileMenu.style.display = 'none';
-        }
+    // Project cards animation for mobile
+    const projectTitles = document.querySelectorAll('.project-title');
+    
+    // Check if device is mobile
+    const isMobile = window.innerWidth <= 768;
+    
+    if (isMobile) {
+        // Make project titles always visible on mobile
+        projectTitles.forEach(title => {
+            title.style.transform = 'translateY(0)';
+        });
+    }
+    
+    // Recalculate on window resize
+    window.addEventListener('resize', () => {
+        const isMobileNow = window.innerWidth <= 768;
+        
+        projectTitles.forEach(title => {
+            if (isMobileNow) {
+                title.style.transform = 'translateY(0)';
+            } else {
+                title.style.transform = '';
+            }
+        });
     });
+    // Check screen size on load and resize
+    function checkScreenSize() {
+        const mobileBreakpoint = 768;
+        const navWrapper = document.querySelector('.nav__wrapper');
+        const hamburgerMenu = document.getElementById('hamburger');
+        const line = document.querySelector('.line');
+        
+        if (window.innerWidth <= mobileBreakpoint) {
+            // Mobile view
+            if (navWrapper) navWrapper.style.display = 'none';
+            if (hamburgerMenu) hamburgerMenu.style.display = 'flex';
+            if (line) line.style.display = 'none';
+        } else {
+            // Desktop view
+            if (navWrapper) navWrapper.style.display = 'block';
+            if (hamburgerMenu) hamburgerMenu.style.display = 'none';
+            if (line) line.style.display = 'block';
+            
+            // Hide mobile menu if it was open
+            if (mobileMenu) mobileMenu.style.display = 'none';
+        }
+    }
+    
+    // Initial check
+    checkScreenSize();
+    
+    // Check on window resize
+    window.addEventListener('resize', checkScreenSize);
 });
