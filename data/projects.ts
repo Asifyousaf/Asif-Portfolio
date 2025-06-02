@@ -153,8 +153,8 @@ export const projects: Project[] = [
       "Used vanilla JavaScript for full functionality (no external libraries)"
     ],
     image: "/images/projects/soundboard/soundboard.jpg",
-    github: "https://github.com/Asifyousaf",
-    liveUrl: "https://asifyousaf.github.io/soundboard/",
+    github: "https://github.com/Asifyousaf/Soundboard.github.io",
+    liveUrl: "https://asifyousaf.github.io/Soundboard.github.io/",
     featured: false
   },
   {
@@ -204,7 +204,7 @@ export const projects: Project[] = [
       "Optimized API response handling"
     ],
     image: "/images/projects/meal-maker/meal-maker.jpg",
-    github: "https://github.com/Asifyousaf/meal-maker",
+    github: "https://github.com/Asifyousaf/MealMakerApi",
     featured: false
   }
 ];
