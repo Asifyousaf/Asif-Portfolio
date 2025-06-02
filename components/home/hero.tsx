@@ -1,4 +1,3 @@
-// components/home/hero.tsx
 "use client";
 
 import { useState, useEffect } from "react";
@@ -19,7 +18,6 @@ export function Hero() {
   // Parallax effect setup
   const { scrollY } = useScroll();
   const y1 = useTransform(scrollY, [0, 500], [0, 150]);
-  const y2 = useTransform(scrollY, [0, 500], [0, 250]);
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -27,7 +25,7 @@ export function Hero() {
     }, 3000);
 
     return () => clearInterval(interval);
-  }, []);
+  }, [displayedSkills.length]);
 
   // Get icon component for social links
   const getIconComponent = (iconName: string) => {

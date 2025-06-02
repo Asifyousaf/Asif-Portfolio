@@ -14,10 +14,9 @@ import {
 import { Badge } from "@/components/ui/badge";
 import { projects } from "@/data/projects";
 import Link from "next/link";
-
+import Image from "next/image";
 
 export function FeaturedProjects() {
-
   const featuredProjects = projects.filter(project => project.featured);
 
   return (
@@ -49,7 +48,7 @@ export function FeaturedProjects() {
                 <Card className="h-full flex flex-col overflow-hidden border-2 transition-all hover:border-primary">
                   {project.image && (
                     <div className="aspect-video overflow-hidden">
-                      <img
+                      <Image
                         src={project.image}
                         alt={project.title}
                         className="h-full w-full object-cover transition-transform hover:scale-105"
