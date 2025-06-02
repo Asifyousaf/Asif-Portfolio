@@ -6,7 +6,6 @@ import { motion, useScroll, useTransform } from "framer-motion";
 import { ArrowRight, Download, Github, Linkedin, Mail, Twitter } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { socialLinks } from "@/data/social";
-import Image from "next/image";
 
 export function Hero() {
   const [currentSkillIndex, setCurrentSkillIndex] = useState(0);
@@ -155,24 +154,6 @@ export function Hero() {
                 </motion.div>
               ))}
             </motion.div>
-          </motion.div>
-          <motion.div
-            className="flex items-center justify-center"
-            style={{ y: y2 }}
-            initial={{ opacity: 0, scale: 0.9 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.5, delay: 0.4 }}
-          >
-            <div className="relative aspect-square w-full max-w-md overflow-hidden rounded-full">
-              <Image
-                src="/images/profile.jpg"
-                alt="Achyut Katiyar"
-                fill
-                className="object-cover"
-                priority
-                sizes="(max-width: 768px) 100vw, 400px"
-              />
-            </div>
           </motion.div>
         </div>
       </div>
