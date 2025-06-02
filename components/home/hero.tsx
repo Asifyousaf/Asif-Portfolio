@@ -1,3 +1,4 @@
+// components/home/hero.tsx
 "use client";
 
 import { useState, useEffect } from "react";
@@ -5,6 +6,7 @@ import { motion, useScroll, useTransform } from "framer-motion";
 import { ArrowRight, Download, Github, Linkedin, Mail, Twitter } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { socialLinks } from "@/data/social";
+import Image from "next/image";
 
 export function Hero() {
   const [currentSkillIndex, setCurrentSkillIndex] = useState(0);
@@ -18,6 +20,7 @@ export function Hero() {
   // Parallax effect setup
   const { scrollY } = useScroll();
   const y1 = useTransform(scrollY, [0, 500], [0, 150]);
+  const y2 = useTransform(scrollY, [0, 500], [0, 250]);
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -25,7 +28,7 @@ export function Hero() {
     }, 3000);
 
     return () => clearInterval(interval);
-  }, [displayedSkills.length]);
+  }, []);
 
   // Get icon component for social links
   const getIconComponent = (iconName: string) => {
@@ -152,6 +155,24 @@ export function Hero() {
                 </motion.div>
               ))}
             </motion.div>
+          </motion.div>
+          <motion.div
+            className="flex items-center justify-center"
+            style={{ y: y2 }}
+            initial={{ opacity: 0, scale: 0.9 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.5, delay: 0.4 }}
+          >
+            <div className="relative aspect-square w-full max-w-md overflow-hidden rounded-full">
+              <Image
+                src="/images/profile.jpg"
+                alt="Achyut Katiyar"
+                fill
+                className="object-cover"
+                priority
+                sizes="(max-width: 768px) 100vw, 400px"
+              />
+            </div>
           </motion.div>
         </div>
       </div>
