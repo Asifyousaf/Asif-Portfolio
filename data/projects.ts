@@ -101,7 +101,6 @@ export const projects: Project[] = [
       "Optimized site performance"
     ],
     image: "/images/projects/cybertronic/cybertronic.jpg",
-    github: "https://github.com/Asifyousaf",
     liveUrl: "https://cybertronicbot.com/",
     featured: true
   },
