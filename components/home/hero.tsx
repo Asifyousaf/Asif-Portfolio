@@ -11,10 +11,10 @@ import Image from "next/image";
 export function Hero() {
   const [currentSkillIndex, setCurrentSkillIndex] = useState(0);
   const displayedSkills = [
-    "Front End Developer",
-    "Web Developer",
-    "App Developer",
-    "UI/UX Designer"
+    "Machine Learning Engineer",
+    "Full Stack Developer",
+    "AI/ML Specialist",
+    "Data Scientist"
   ];
 
   // Parallax effect setup
@@ -91,10 +91,10 @@ export function Hero() {
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: 0.2 }}
-                className="max-w-[600px] text-muted-foreground md:text-xl"
               >
-                A passionate developer with expertise in web development, mobile app development,
-                and UI/UX design. Currently focused on creating modern and responsive web applications.
+                <p className="max-w-[600px] text-muted-foreground md:text-xl">
+                  Machine Learning and AI-focused developer with strong experience in Python, NLP, and data-driven systems, alongside 2+ years of full-stack web development using React and modern JavaScript. Passionate about building intelligent applications that combine machine learning models with scalable, user-focused web solutions.
+                </p>
               </motion.p>
             </div>
             
