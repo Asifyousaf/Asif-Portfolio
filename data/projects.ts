@@ -14,6 +14,31 @@ export interface Project {
 
 export const projects: Project[] = [
   {
+    id: "telecom-ai-chatbot",
+    title: "Telecom AI Customer Support Chatbot",
+    description: "AI-powered chatbot for telecom customer support, handling billing, usage, and service inquiries with natural language processing.",
+    longDescription: "Built a Telecom AI Customer Support Chatbot that handles billing, usage, bundles, and dispute inquiries end-to-end. The assistant can identify customers, explain bill breakdowns, show consumption metrics, answer plan questions, and raise support tickets with SLA tracking.",
+    technologies: [
+      "FastAPI",
+      "Python",
+      "Google Gemini",
+      "LangChain",
+      "FAISS",
+      "RAG (Retrieval-Augmented Generation)",
+      "Natural Language Processing"
+    ],
+    achievements: [
+      "Developed end-to-end AI chatbot for telecom customer support",
+      "Implemented secure customer identification and data retrieval",
+      "Integrated with billing and usage systems for real-time information",
+      "Reduced agent workload by automating common inquiries",
+      "Improved customer experience with 24/7 instant responses"
+    ],
+    image: "/images/projects/telecomproject/telecomchatbot.jpg",
+    github: "https://github.com/Asifyousaf",
+    featured: true
+  },
+  {
     id: "nutribuddy",
     title: "NutriBuddy: AI Wellness Companion",
     description: "A comprehensive AI-powered fitness and nutrition web app designed to promote healthy living through personalized guidance.",
@@ -72,17 +97,27 @@ export const projects: Project[] = [
   },
   {
     id: "masat-al-nahar",
-    title: "Masat Al Nahar",
-    description: "A modern restaurant website with online ordering system and menu management",
-    longDescription: "A modern restaurant website with comprehensive online ordering system and menu management capabilities. Features a clean, user-friendly interface and responsive design.",
-    technologies: ["HTML5", "CSS3", "JavaScript", "Figma"],
-    achievements: [
-      "Designed and developed a modern restaurant website",
-      "Implemented online ordering system",
-      "Created responsive menu management interface",
-      "Optimized user experience across devices"
+    title: "Masat Al Nahar – Company Website",
+    description: "Company website built with a modern React stack, with SEO, analytics, and clean end-to-end user flows.",
+    longDescription: "A full-stack web application focused on clean UX and maintainable architecture. Built end-to-end product flows by connecting UI to backend APIs and data operations, with improved reliability, error handling, and production-ready configuration.",
+    technologies: [
+      "React",
+      "TypeScript",
+      "Vite",
+      "Tailwind CSS",
+      "React Router DOM",
+      "react-helmet-async",
+      "sitemap",
+      "robots.txt",
+      "Google Analytics (GA4)"
     ],
-    image: "/images/projects/masatalnahar/masatalnahar.jpg",
+    achievements: [
+      "Delivered end-to-end flows (UI → API → data) with consistent behavior across core user journeys",
+      "Structured a maintainable codebase with reusable components and scalable patterns",
+      "Implemented API logic with validation and structured responses for reliable frontend integration",
+      "Improved stability with stronger error handling, edge-case coverage, and production-ready configuration"
+    ],
+    image: "/images/projects/masatalnahar2/masatalnahar2.jpg",
     github: "https://github.com/Asifyousaf/masatalnahar.io",
     liveUrl: "https://asifyousaf.github.io/masatalnahar.io/",
     figmaUrl: "https://www.figma.com/design/EbVP0zAOfFQh47ipLr8vGj/Untitled?node-id=0-1&t=9fGXUPLwx2EvAr2C-1",
