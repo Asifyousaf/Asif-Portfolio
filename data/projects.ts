@@ -123,7 +123,6 @@ export const projects: Project[] = [
     image: "/images/projects/masatalnahar2/masatalnahar2.jpg",
     liveUrl: "https://www.masatalnahar.com/",
     liveUrlLabel: "Live Website",
-    figmaUrl: "https://www.figma.com/design/EbVP0zAOfFQh47ipLr8vGj/Untitled?node-id=0-1&t=9fGXUPLwx2EvAr2C-1",
     featured: true
   },
   {
