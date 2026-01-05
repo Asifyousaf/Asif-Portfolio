@@ -7,7 +7,9 @@ export interface Project {
   achievements: string[];
   image: string;
   github?: string;
+  githubLabel?: string;
   liveUrl?: string;
+  liveUrlLabel?: string;
   figmaUrl?: string;
   featured: boolean;
 }
