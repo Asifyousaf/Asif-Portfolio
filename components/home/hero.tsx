@@ -113,7 +113,7 @@ export function Hero() {
               </Button>
               <Button variant="outline" size="lg" asChild>
                 <a 
-                  href="/Asif%20CV.pdf" 
+                  href="/Asif_CV.pdf" 
                   download="Asif_Yousaf_Resume.pdf"
                   className="no-underline"
                 >
