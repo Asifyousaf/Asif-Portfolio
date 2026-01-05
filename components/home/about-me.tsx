@@ -27,14 +27,18 @@ export function AboutMe() {
         <div className="max-w-4xl mx-auto">
           <Card>
             <CardContent className="p-6 space-y-4">
+              <h3 className="text-2xl font-bold text-foreground mb-4">Full-Stack Developer with AI-Integrated Experience</h3>
               <p className="text-lg text-muted-foreground">
-                I&apos;m a passionate developer with a strong foundation in frontend and backend technologies, currently pursuing a BSc (Hons) in Creative Computing at Bath Spa University.
+                I'm Asif Yousaf, a full-stack developer with hands-on experience building production-ready web applications using modern frontend and backend technologies. I specialize in creating clean, responsive user interfaces and connecting them to reliable backend systems, APIs, and databases.
               </p>
               <p className="text-lg text-muted-foreground">
-                With over two years of experience in Python and more than a year in HTML and CSS, I&apos;ve built dynamic, user-friendly applications and websites. I&apos;m enthusiastic about crafting clean, responsive designs with a focus on great UI/UX.
+                I have over two years of experience working with Python and JavaScript, and I've built complete applications ranging from e-commerce platforms to client websites delivered through freelance work. One of my key projects includes Cybertronicbot, a full-stack fashion e-commerce platform with authentication, product management, and optimized user flows.
               </p>
               <p className="text-lg text-muted-foreground">
-                Recently, I&apos;ve started expanding my skills into JavaScript and Android app development using Kotlin, aiming to build robust cross-platform experiences. I&apos;m also deeply interested in Machine Learning and continually learning how to integrate intelligent systems into web and mobile solutions.
+                Alongside full-stack development, I have practical exposure to AI-assisted systems, including building an AI-powered telecom customer support chatbot and integrating AI features such as chatbots, recommendation logic, and API-driven intelligence into real applications. I am actively expanding my skills in machine learning and applied AI, focusing on how intelligent systems can be deployed within production web environments rather than standalone demos.
+              </p>
+              <p className="text-lg text-muted-foreground">
+                I'm particularly interested in roles where full-stack engineering intersects with AI, automation, and data-driven features.
               </p>
               
               <div className="flex justify-center mt-6">

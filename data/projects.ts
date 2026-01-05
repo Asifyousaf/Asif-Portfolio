@@ -35,7 +35,8 @@ export const projects: Project[] = [
       "Improved customer experience with 24/7 instant responses"
     ],
     image: "/images/projects/telecomproject/telecomchatbot.jpg",
-    github: "https://github.com/Asifyousaf",
+    github: "https://www.linkedin.com/feed/update/urn:li:activity:7411564304329752576/",
+    githubLabel: "Video",
     featured: true
   },
   {
@@ -118,8 +119,8 @@ export const projects: Project[] = [
       "Improved stability with stronger error handling, edge-case coverage, and production-ready configuration"
     ],
     image: "/images/projects/masatalnahar2/masatalnahar2.jpg",
-    github: "https://github.com/Asifyousaf/masatalnahar.io",
-    liveUrl: "https://asifyousaf.github.io/masatalnahar.io/",
+    liveUrl: "https://www.masatalnahar.com/",
+    liveUrlLabel: "Live Website",
     figmaUrl: "https://www.figma.com/design/EbVP0zAOfFQh47ipLr8vGj/Untitled?node-id=0-1&t=9fGXUPLwx2EvAr2C-1",
     featured: true
   },
@@ -137,6 +138,7 @@ export const projects: Project[] = [
     ],
     image: "/images/projects/cybertronic/cybertronic.jpg",
     liveUrl: "https://cybertronicbot.com/",
+    liveUrlLabel: "Live Website",
     featured: true
   },
   {
