@@ -1,6 +1,6 @@
 // components/projects/project-details.tsx
 import Image from "next/image";
-import { ArrowLeft, Github, ExternalLink } from "lucide-react";
+import { ArrowLeft, Github, ExternalLink, Video } from "lucide-react";
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
@@ -116,7 +116,18 @@ export function ProjectDetails({ project, onBack }: ProjectDetailsProps) {
                     className="flex items-center text-blue-500 hover:underline"
                   >
                     <ExternalLink className="mr-2 h-4 w-4" />
-                    Live Demo
+                    Live Link
+                  </a>
+                )}
+                {project.videoUrl && (
+                  <a
+                    href={project.videoUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center text-blue-500 hover:underline"
+                  >
+                    <Video className="mr-2 h-4 w-4" />
+                    Video
                   </a>
                 )}
               </div>

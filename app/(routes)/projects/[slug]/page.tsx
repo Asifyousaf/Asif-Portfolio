@@ -140,7 +140,7 @@ export default function ProjectPage() {
                       className="flex items-center text-blue-500 hover:underline"
                     >
                       <ExternalLink className="mr-2 h-4 w-4" />
-                      Live Demo
+                      Live Link
                     </a>
                   )}
                 </div>

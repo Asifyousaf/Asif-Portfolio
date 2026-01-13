@@ -1,5 +1,4 @@
 import defaultTheme from "tailwindcss/defaultTheme";
-import animate from "tailwindcss-animate";
 
 /** @type {import('tailwindcss').Config} */
 const tailwindConfig = {
@@ -9,7 +8,6 @@ const tailwindConfig = {
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
-  plugins: [animate],
   theme: {
     container: {
       center: true,

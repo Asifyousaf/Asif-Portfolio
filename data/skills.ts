@@ -1,8 +1,9 @@
-export type SkillCategory = 
-  | 'Languages' 
-  | 'Frameworks/Libraries' 
-  | 'Web Technologies' 
-  | 'Tools & Platforms';
+export type SkillCategory =
+  | 'Languages'
+  | 'Frontend'
+  | 'Backend'
+  | 'ML/AI'
+  | 'Tools';
 
 export interface Skill {
   name: string;
@@ -12,28 +13,46 @@ export interface Skill {
 
 export const skills: Record<SkillCategory, Skill[]> = {
   'Languages': [
-    { name: 'HTML', category: 'Languages', logoKey: 'html5' },
-    { name: 'CSS', category: 'Languages', logoKey: 'css3' },
-    { name: 'JavaScript', category: 'Languages', logoKey: 'javascript' },
     { name: 'Python', category: 'Languages', logoKey: 'python' },
+    { name: 'JavaScript', category: 'Languages', logoKey: 'javascript' },
     { name: 'Kotlin', category: 'Languages', logoKey: 'kotlin' }
   ],
-  'Frameworks/Libraries': [
-    { name: 'React', category: 'Frameworks/Libraries', logoKey: 'react' },
-    { name: 'Node.js', category: 'Frameworks/Libraries', logoKey: 'nodejs' },
-    { name: 'Express', category: 'Frameworks/Libraries', logoKey: 'express' },
-    { name: 'Android SDK', category: 'Frameworks/Libraries', logoKey: 'android' }
+  'Frontend': [
+    { name: 'React.js', category: 'Frontend', logoKey: 'react' },
+    { name: 'Next.js', category: 'Frontend', logoKey: 'nextjs' },
+    { name: 'HTML5', category: 'Frontend', logoKey: 'html5' },
+    { name: 'CSS3/Tailwind', category: 'Frontend', logoKey: 'tailwindcss' },
+    { name: 'React Native', category: 'Frontend', logoKey: 'react' }
   ],
-  'Web Technologies': [
-    { name: 'REST APIs', category: 'Web Technologies', logoKey: 'javascript' },
-    { name: 'Responsive Design', category: 'Web Technologies', logoKey: 'css3' },
-    { name: 'Web Accessibility', category: 'Web Technologies', logoKey: 'html5' }
+  'Backend': [
+    { name: 'Node.js', category: 'Backend', logoKey: 'nodejs' },
+    { name: 'Express.js', category: 'Backend', logoKey: 'express' },
+    { name: 'FastAPI', category: 'Backend', logoKey: 'fastapi' },
+    { name: 'RESTful APIs', category: 'Backend', logoKey: 'javascript' },
+    { name: 'GraphQL', category: 'Backend', logoKey: 'graphql' },
+    { name: 'PostgreSQL', category: 'Backend', logoKey: 'postgresql' },
+    { name: 'MongoDB', category: 'Backend', logoKey: 'mongodb' }
   ],
-  'Tools & Platforms': [
-    { name: 'Git', category: 'Tools & Platforms', logoKey: 'git' },
-    { name: 'Firebase', category: 'Tools & Platforms', logoKey: 'firebase' },
-    { name: 'MongoDB', category: 'Tools & Platforms', logoKey: 'mongodb' },
-    { name: 'Figma', category: 'Tools & Platforms', logoKey: 'figma' }
+  'ML/AI': [
+    { name: 'TensorFlow', category: 'ML/AI', logoKey: 'tensorflow' },
+    { name: 'PyTorch', category: 'ML/AI', logoKey: 'pytorch' },
+    { name: 'scikit-learn', category: 'ML/AI', logoKey: 'scikitlearn' },
+    { name: 'Pandas', category: 'ML/AI', logoKey: 'pandas' },
+    { name: 'NumPy', category: 'ML/AI', logoKey: 'numpy' },
+    { name: 'OpenAI API', category: 'ML/AI', logoKey: 'python' },
+    { name: 'LangChain', category: 'ML/AI', logoKey: 'python' },
+    { name: 'Hugging Face', category: 'ML/AI', logoKey: 'python' },
+    { name: 'NLP', category: 'ML/AI', logoKey: 'python' },
+    { name: 'Computer Vision', category: 'ML/AI', logoKey: 'opencv' },
+    { name: 'LLMs', category: 'ML/AI', logoKey: 'python' }
+  ],
+  'Tools': [
+    { name: 'Git/GitHub', category: 'Tools', logoKey: 'git' },
+    { name: 'Figma', category: 'Tools', logoKey: 'figma' },
+    { name: 'Postman', category: 'Tools', logoKey: 'javascript' },
+    { name: 'VS Code', category: 'Tools', logoKey: 'vscode' },
+    { name: 'Docker', category: 'Tools', logoKey: 'docker' },
+    { name: 'Firebase', category: 'Tools', logoKey: 'firebase' }
   ]
 };
 

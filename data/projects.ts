@@ -7,9 +7,8 @@ export interface Project {
   achievements: string[];
   image: string;
   github?: string;
-  githubLabel?: string;
   liveUrl?: string;
-  liveUrlLabel?: string;
+  videoUrl?: string;
   figmaUrl?: string;
   featured: boolean;
 }
@@ -37,8 +36,7 @@ export const projects: Project[] = [
       "Improved customer experience with 24/7 instant responses"
     ],
     image: "/images/projects/telecomproject/telecomchatbot.jpg",
-    github: "https://www.linkedin.com/feed/update/urn:li:activity:7411564304329752576/",
-    githubLabel: "Video",
+    videoUrl: "https://www.linkedin.com/feed/update/urn:li:activity:7411564304329752576/",
     featured: true
   },
   {
@@ -122,6 +120,7 @@ export const projects: Project[] = [
     ],
     image: "/images/projects/masatalnahar2/masatalnahar2.jpg",
     liveUrl: "https://www.masatalnahar.com/",
+    figmaUrl: "https://www.figma.com/design/EbVP0zAOfFQh47ipLr8vGj/Untitled?node-id=0-1&t=9fGXUPLwx2EvAr2C-1",
     featured: true
   },
   {
@@ -138,7 +137,6 @@ export const projects: Project[] = [
     ],
     image: "/images/projects/cybertronic/cybertronic.jpg",
     liveUrl: "https://cybertronicbot.com/",
-    liveUrlLabel: "Live Website",
     featured: true
   },
   {

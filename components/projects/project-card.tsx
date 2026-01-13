@@ -73,7 +73,7 @@ export function ProjectCard({ project }: ProjectCardProps) {
         )}
         {project.liveUrl && (
           <Button asChild variant="ghost" size="icon">
-            <a href={project.liveUrl} target="_blank" rel="noopener noreferrer" aria-label="Live Demo">
+            <a href={project.liveUrl} target="_blank" rel="noopener noreferrer" aria-label="Live Link">
               <ExternalLink className="h-4 w-4" />
             </a>
           </Button>

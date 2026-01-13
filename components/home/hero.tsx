@@ -28,7 +28,7 @@ export function Hero() {
     }, 3000);
 
     return () => clearInterval(interval);
-  }, [displayedSkills.length]);
+  }, []);
 
   // Get icon component for social links
   const getIconComponent = (iconName: string) => {
@@ -113,9 +113,10 @@ export function Hero() {
               </Button>
               <Button variant="outline" size="lg" asChild>
                 <a 
-                  href="/Asif_CV.pdf" 
-                  download="Asif_Yousaf_Resume.pdf"
-                  className="no-underline"
+                  href="https://github.com/Asifyousaf/MyPortfolio.github.io/raw/main/Asif%20CV.pdf" 
+                  download="Asif_CV.pdf" 
+                  target="_blank"                      
+                  rel="noopener noreferrer"
                 >
                   <Download className="mr-2 h-4 w-4" />
                   Resume
