@@ -122,7 +122,6 @@ export const projects: Project[] = [
     ],
     image: "/images/projects/masatalnahar2/masatalnahar2.jpg",
     liveUrl: "https://www.masatalnahar.com/",
-    liveUrlLabel: "Live Website",
     featured: true
   },
   {
