@@ -67,8 +67,8 @@ export function Footer() {
                 </Link>
               </li>
               <li>
-                <a 
-                  href="/resume.pdf" 
+                <a
+                  href="https://github.com/Asifyousaf/MyPortfolio.github.io/raw/main/Asif%20CV.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-sm text-muted-foreground hover:text-primary transition-colors flex items-center gap-1"
