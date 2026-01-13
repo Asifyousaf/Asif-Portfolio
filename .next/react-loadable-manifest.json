@@ -1,0 +1,28 @@
+{
+  "app/client-layout.tsx -> @/components/black-hole-video": {
+    "id": "app/client-layout.tsx -> @/components/black-hole-video",
+    "files": [
+      "static/chunks/_app-pages-browser_components_black-hole-video_tsx.js"
+    ]
+  },
+  "app/client-layout.tsx -> @/components/star-background": {
+    "id": "app/client-layout.tsx -> @/components/star-background",
+    "files": [
+      "static/chunks/_app-pages-browser_components_star-background_tsx.js"
+    ]
+  },
+  "components/star-background.tsx -> ./star-background-canvas": {
+    "id": "components/star-background.tsx -> ./star-background-canvas",
+    "files": [
+      "static/chunks/_app-pages-browser_components_star-background-canvas_tsx.js"
+    ]
+  },
+  "node_modules/@react-three/drei/core/VideoTexture.js -> hls.js": {
+    "id": "node_modules/@react-three/drei/core/VideoTexture.js -> hls.js",
+    "files": []
+  },
+  "node_modules/@react-three/drei/web/FaceLandmarker.js -> @mediapipe/tasks-vision": {
+    "id": "node_modules/@react-three/drei/web/FaceLandmarker.js -> @mediapipe/tasks-vision",
+    "files": []
+  }
+}
