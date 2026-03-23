@@ -25,7 +25,7 @@ export function ProjectCard({ project }: ProjectCardProps) {
             <Image
             src={project.image}
             alt={project.title}
-            className="object-cover object-top"
+            className="object-contain object-center bg-black/40"
             fill
             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             priority={project.featured}

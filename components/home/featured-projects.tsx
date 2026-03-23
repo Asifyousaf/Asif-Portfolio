@@ -47,11 +47,11 @@ export function FeaturedProjects() {
               >
                 <Card className="h-full flex flex-col overflow-hidden border-2 transition-all hover:border-primary">
                   {project.image && (
-                    <div className="aspect-video overflow-hidden">
+                    <div className="aspect-video overflow-hidden bg-black/40 relative">
                       <Image
                         src={project.image}
                         alt={project.title}
-                        className="h-full w-full object-cover transition-transform hover:scale-105"
+                        className="h-full w-full object-contain transition-transform hover:scale-105"
                         width={600}
                         height={400}
                       />

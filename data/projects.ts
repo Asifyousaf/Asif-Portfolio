@@ -38,6 +38,7 @@ export const projects: Project[] = [
       "Crafted a responsive, mobile-first design utilizing Tailwind CSS for a premium app-like experience"
     ],
     image: "/images/projects/alnuamigroup/alnuami.png",
+    liveUrl: "https://www.alnuamigroup.ae/",
     featured: true
   },
   {

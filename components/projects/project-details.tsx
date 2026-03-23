@@ -36,14 +36,14 @@ export function ProjectDetails({ project, onBack }: ProjectDetailsProps) {
             </h1>
 
             {project.image && (
-              <div className="rounded-lg overflow-hidden mb-6 relative">
+              <div className="rounded-lg overflow-hidden mb-6 relative bg-black/40">
                 <div className="aspect-video w-full relative">
                   <Image
                     src={project.image}
                     alt={project.title}
                     fill
                     sizes="(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px"
-                    className="object-cover object-top"
+                    className="object-contain object-center"
                     priority
                   />
                 </div>
