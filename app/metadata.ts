@@ -6,8 +6,7 @@ export const metadata: Metadata = {
   description: "Full Stack Developer & Machine Learning Enthusiast",
   icons: {
     icon: [
-      { url: "/favicon.ico", sizes: "any" },
-      { url: "/icon.png", type: "image/png" },
+      { url: "/favicon.svg", type: "image/svg+xml" },
     ],
     apple: { url: "/apple-touch-icon.png", type: "image/png" },
   },

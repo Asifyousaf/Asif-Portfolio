@@ -15,6 +15,32 @@ export interface Project {
 
 export const projects: Project[] = [
   {
+    id: "al-nuami-group-marketplace",
+    title: "Al Nuami Group Marketplace",
+    description: "The premier marketplace for luxury assets in the UAE, specializing in premium number plates.",
+    longDescription: "A comprehensive, high-performance web application designed as the premier marketplace for luxury assets in the UAE. The platform specializes in trading premium and rare number plates across all seven emirates, while also supporting exclusive listings for mobile numbers, motors, properties, and classifieds. Built with modern web technologies, it delivers a seamless, bilingual user experience, a robust dynamic SEO architecture, and features an advanced real-time custom plate visualizer tool.",
+    technologies: [
+      "React 19",
+      "TypeScript",
+      "Vite",
+      "React Router v7",
+      "Tailwind CSS",
+      "Supabase",
+      "PostgreSQL",
+      "Canvas API",
+      "React Helmet Async"
+    ],
+    achievements: [
+      "Developed an advanced 'Draw My Plate' canvas-based visualizer engine for custom number plates with real-time preview and 4K export",
+      "Engineered production-level dynamic SEO with emirate-specific landing pages and automated sitemaps",
+      "Integrated complete authentication flows, secure user dashboards, and an administrative control panel",
+      "Implemented seamless English and Arabic bilingual support with fluid LTR/RTL layout adaptations",
+      "Crafted a responsive, mobile-first design utilizing Tailwind CSS for a premium app-like experience"
+    ],
+    image: "/images/projects/alnuamigroup/alnuami.png",
+    featured: true
+  },
+  {
     id: "telecom-ai-chatbot",
     title: "Telecom AI Customer Support Chatbot",
     description: "AI-powered chatbot for telecom customer support, handling billing, usage, and service inquiries with natural language processing.",
