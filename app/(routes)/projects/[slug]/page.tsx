@@ -17,6 +17,9 @@ export default function ProjectPage() {
   const [project, setProject] = useState<Project | null>(null);
 
   useEffect(() => {
+    // Scroll to top on mount
+    window.scrollTo(0, 0);
+
     // Safely access slug from params
     const slug = params?.slug?.toString() || "";
     

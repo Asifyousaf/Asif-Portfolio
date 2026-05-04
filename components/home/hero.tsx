@@ -11,10 +11,10 @@ import Image from "next/image";
 export function Hero() {
   const [currentSkillIndex, setCurrentSkillIndex] = useState(0);
   const displayedSkills = [
-    "Machine Learning Engineer",
     "Full Stack Developer",
+    "Mobile App Developer",
     "AI/ML Specialist",
-    "Data Scientist"
+    "System Architect"
   ];
 
   // Parallax effect setup
@@ -28,7 +28,7 @@ export function Hero() {
     }, 3000);
 
     return () => clearInterval(interval);
-  }, []);
+  }, [displayedSkills.length]);
 
   // Get icon component for social links
   const getIconComponent = (iconName: string) => {
@@ -93,7 +93,7 @@ export function Hero() {
                 transition={{ duration: 0.5, delay: 0.2 }}
               >
                 <p className="max-w-[600px] text-muted-foreground md:text-xl">
-                  Machine Learning and AI-focused developer with strong experience in Python, NLP, and data-driven systems, alongside 2+ years of full-stack web development using React and modern JavaScript. Passionate about building intelligent applications that combine machine learning models with scalable, user-focused web solutions.
+                  Full-Stack Developer building scalable web and mobile applications with 4+ years of experience in React, TypeScript, Node.js, and modern databases. Focused on creating high-performance digital products and integrating practical AI-powered features into real-world applications.
                 </p>
               </motion.p>
             </div>

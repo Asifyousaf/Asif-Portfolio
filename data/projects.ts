@@ -16,29 +16,30 @@ export interface Project {
 export const projects: Project[] = [
   {
     id: "al-nuami-group-marketplace",
-    title: "Al Nuami Group Marketplace",
-    description: "The premier marketplace for luxury assets in the UAE, specializing in premium number plates.",
-    longDescription: "A comprehensive, high-performance web application designed as the premier marketplace for luxury assets in the UAE. The platform specializes in trading premium and rare number plates across all seven emirates, while also supporting exclusive listings for mobile numbers, motors, properties, and classifieds. Built with modern web technologies, it delivers a seamless, bilingual user experience, a robust dynamic SEO architecture, and features an advanced real-time custom plate visualizer tool.",
+    title: "Al Nuaimi Group - Web & Mobile App",
+    description: "A comprehensive cross-platform marketplace (Web and Mobile) for trading premium assets like number plates, VIP numbers, vehicles, and real estate.",
+    longDescription: "Developed a comprehensive cross-platform marketplace (Web and Mobile) using React, React Native, and Supabase to facilitate the trading of premium assets. It features a highly interactive 'Draw My Plate' visualizer tool utilizing React Native Skia and Canvas API, allowing users to accurately design, scale, and preview custom number plates in real time. The platform includes secure user authentication, personalized dashboards, cross-platform push notifications, and robust PostgreSQL database management with Row-Level Security.",
     technologies: [
-      "React 19",
+      "React & React Native",
+      "Expo",
       "TypeScript",
       "Vite",
-      "React Router v7",
-      "Tailwind CSS",
-      "Supabase",
-      "PostgreSQL",
-      "Canvas API",
-      "React Helmet Async"
+      "TailwindCSS & NativeWind",
+      "Shopify React Native Skia",
+      "Supabase (Auth, Storage, Edge Functions)",
+      "PostgreSQL"
     ],
     achievements: [
-      "Developed an advanced 'Draw My Plate' canvas-based visualizer engine for custom number plates with real-time preview and 4K export",
+      "Built an interactive 'Draw My Plate' tool with React Native Skia and Canvas for real-time visualization and design",
+      "Engineered cross-platform push notification systems for both guests and authenticated users",
+      "Optimized rendering performance with deferred rendering to completely eliminate UI lag during complex transitions",
+      "Implemented secure backend architecture using Supabase for auth, storage, and carefully crafted RLS policies",
+      "Integrated efficient asset caching and multi-layer local storage strategies for state persistence",
       "Engineered production-level dynamic SEO with emirate-specific landing pages and automated sitemaps",
-      "Integrated complete authentication flows, secure user dashboards, and an administrative control panel",
-      "Implemented seamless English and Arabic bilingual support with fluid LTR/RTL layout adaptations",
-      "Crafted a responsive, mobile-first design utilizing Tailwind CSS for a premium app-like experience"
+      "Developed a multi-category marketplace with dedicated interfaces for diverse premium assets"
     ],
     image: "/images/projects/alnuamigroup/alnuami.png",
-    liveUrl: "https://www.alnuamigroup.ae/",
+    liveUrl: "https://www.alnuaimigroup.ae/",
     featured: true
   },
   {
