@@ -1,6 +1,0 @@
-import { ArrowUpRight } from "lucide-react";
-import { profile } from "@/lib/portfolio";
-
-export function Contact() {
-  return <section id="contact" className="contact-section section-shell"><div className="section-label"><span>04 / WHAT’S NEXT</span><span>A CONVERSATION IS A GOOD START.</span></div><a className="contact-headline" href={`mailto:${profile.email}`}>Let’s build<br />what’s next.<ArrowUpRight aria-hidden="true" /></a><div className="contact-bottom"><a className="email-link" href={`mailto:${profile.email}`}>{profile.email}<ArrowUpRight size={18} /></a><div className="social-links"><a href={profile.github} target="_blank" rel="noopener noreferrer">GitHub <ArrowUpRight size={14} /></a><a href={profile.linkedin} target="_blank" rel="noopener noreferrer">LinkedIn <ArrowUpRight size={14} /></a><a href={profile.resume} download="Asif-CV.pdf" target="_blank" rel="noopener noreferrer">Résumé <ArrowUpRight size={14} /></a></div></div><footer><span>© 2026 ASIF YOUSAF</span><span>DESIGNED WITH INTENT. BUILT WITH PRECISION.</span><a href="#top">BACK TO TOP ↑</a></footer></section>;
-}
